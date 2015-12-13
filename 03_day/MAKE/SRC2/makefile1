@@ -1,0 +1,8 @@
+# makefile1
+# 아래 코드를 먼저 보여 주고.
+# 문제점으로 app.h 안에있는 #define MAX 100이 변경될경우
+# 다시 컴파일 되지 않는다는 것을 이야기 할것.
+# 그리고 makefile2를 수업.
+
+app: app.c
+	cc -o app app.c -I .

@@ -1,0 +1,20 @@
+# defined to 1 if subunit is enabled
+ENABLE_SUBUNIT=0
+export ENABLE_SUBUNIT
+EXEEXT=
+export EXEEXT
+HAVE_FORK=1
+export HAVE_FORK
+
+# path of the tests directory
+if [ x"/root/05_day/check-0.10.0/tests" != x"." ]; then
+    if [ -z "" -o "" != "1" ]; then
+       SRCDIR="/root/05_day/check-0.10.0/tests/"
+    else
+       SRCDIR="/root/05_day/check-0.10.0/tests\\"
+    fi
+else
+    SRCDIR=""
+fi
+
+export SRCDIR

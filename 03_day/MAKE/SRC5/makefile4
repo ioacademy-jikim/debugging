@@ -1,0 +1,13 @@
+# makefile4
+
+.c.o: 
+	@echo "Compiling" $< "..."
+	cc -c $< -I.
+
+app: main.o foo.o goo.o
+	@echo "Building target" $@ "..." 
+	cc -o app main.o foo.o goo.o
+
+main.o:foo.h goo.h
+foo.o:foo.h
+foo.o:goo.h

@@ -1,0 +1,2660 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	checkmk/Makefile	/^ACLOCAL = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	doc/Makefile	/^ACLOCAL = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	lib/Makefile	/^ACLOCAL = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run aclocal-1.11$/;"	m
+ACLOCAL	tests/Makefile	/^ACLOCAL = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_AMFLAGS	Makefile	/^ACLOCAL_AMFLAGS = -I m4$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	checkmk/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	doc/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	lib/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	tests/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	checkmk/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	doc/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	lib/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	src/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	tests/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CFLAGS	src/Makefile	/^AM_CFLAGS =  -pthread $(LIBSUBUNIT_CFLAGS)$/;"	m
+AM_CPPFLAGS	tests/Makefile	/^AM_CPPFLAGS = -I$(top_builddir)\/src -I$(top_srcdir)\/src$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	checkmk/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	doc/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	lib/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	src/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	tests/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_MAKEINFOFLAGS	Makefile	/^AM_MAKEINFOFLAGS = -I$(top_srcdir)\/doc\/example$/;"	m
+AM_MAKEINFOHTMLFLAGS	doc/Makefile	/^AM_MAKEINFOHTMLFLAGS = $(AM_MAKEINFOFLAGS)$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \\$/;"	m
+AM_V_CC	lib/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CC	src/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CC	tests/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	lib/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CCLD	src/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CCLD	tests/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	checkmk/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	doc/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	lib/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	src/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	tests/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	checkmk/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	doc/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	lib/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	src/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	tests/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	lib/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AM_V_lt	src/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AM_V_lt	tests/Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AR	checkmk/Makefile	/^AR = ar$/;"	m
+AR	doc/Makefile	/^AR = ar$/;"	m
+AR	lib/Makefile	/^AR = ar$/;"	m
+AR	src/Makefile	/^AR = ar$/;"	m
+AR	tests/Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoconf$/;"	m
+AUTOCONF	checkmk/Makefile	/^AUTOCONF = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoconf$/;"	m
+AUTOCONF	doc/Makefile	/^AUTOCONF = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoconf$/;"	m
+AUTOCONF	lib/Makefile	/^AUTOCONF = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoconf$/;"	m
+AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoconf$/;"	m
+AUTOCONF	tests/Makefile	/^AUTOCONF = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoheader$/;"	m
+AUTOHEADER	checkmk/Makefile	/^AUTOHEADER = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoheader$/;"	m
+AUTOHEADER	doc/Makefile	/^AUTOHEADER = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoheader$/;"	m
+AUTOHEADER	lib/Makefile	/^AUTOHEADER = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoheader$/;"	m
+AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoheader$/;"	m
+AUTOHEADER	tests/Makefile	/^AUTOHEADER = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run automake-1.11$/;"	m
+AUTOMAKE	checkmk/Makefile	/^AUTOMAKE = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run automake-1.11$/;"	m
+AUTOMAKE	doc/Makefile	/^AUTOMAKE = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run automake-1.11$/;"	m
+AUTOMAKE	lib/Makefile	/^AUTOMAKE = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run automake-1.11$/;"	m
+AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run automake-1.11$/;"	m
+AUTOMAKE	tests/Makefile	/^AUTOMAKE = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run automake-1.11$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	checkmk/Makefile	/^AWK = gawk$/;"	m
+AWK	doc/Makefile	/^AWK = gawk$/;"	m
+AWK	lib/Makefile	/^AWK = gawk$/;"	m
+AWK	src/Makefile	/^AWK = gawk$/;"	m
+AWK	tests/Makefile	/^AWK = gawk$/;"	m
+AWK_GSUB_DBL_BSLASH	Makefile	/^AWK_GSUB_DBL_BSLASH = \\\\\\\\$/;"	m
+AWK_GSUB_DBL_BSLASH	checkmk/Makefile	/^AWK_GSUB_DBL_BSLASH = \\\\\\\\$/;"	m
+AWK_GSUB_DBL_BSLASH	doc/Makefile	/^AWK_GSUB_DBL_BSLASH = \\\\\\\\$/;"	m
+AWK_GSUB_DBL_BSLASH	lib/Makefile	/^AWK_GSUB_DBL_BSLASH = \\\\\\\\$/;"	m
+AWK_GSUB_DBL_BSLASH	src/Makefile	/^AWK_GSUB_DBL_BSLASH = \\\\\\\\$/;"	m
+AWK_GSUB_DBL_BSLASH	tests/Makefile	/^AWK_GSUB_DBL_BSLASH = \\\\\\\\$/;"	m
+AWK_PATH	Makefile	/^AWK_PATH = \/usr\/bin\/gawk$/;"	m
+AWK_PATH	checkmk/Makefile	/^AWK_PATH = \/usr\/bin\/gawk$/;"	m
+AWK_PATH	doc/Makefile	/^AWK_PATH = \/usr\/bin\/gawk$/;"	m
+AWK_PATH	lib/Makefile	/^AWK_PATH = \/usr\/bin\/gawk$/;"	m
+AWK_PATH	src/Makefile	/^AWK_PATH = \/usr\/bin\/gawk$/;"	m
+AWK_PATH	tests/Makefile	/^AWK_PATH = \/usr\/bin\/gawk$/;"	m
+BIG_MSG_LEN	tests/check_check_pack.c	374;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CC	checkmk/Makefile	/^CC = gcc$/;"	m
+CC	doc/Makefile	/^CC = gcc$/;"	m
+CC	lib/Makefile	/^CC = gcc$/;"	m
+CC	src/Makefile	/^CC = gcc$/;"	m
+CC	tests/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	checkmk/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	doc/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	lib/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	tests/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	lib/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	src/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	tests/Makefile	/^CCLD = $(CC)$/;"	m
+CFILES	src/Makefile	/^CFILES = \\$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas$/;"	m
+CFLAGS	checkmk/Makefile	/^CFLAGS = -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas$/;"	m
+CFLAGS	doc/Makefile	/^CFLAGS = -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas$/;"	m
+CFLAGS	lib/Makefile	/^CFLAGS = -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS = -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas$/;"	m
+CFLAGS	tests/Makefile	/^CFLAGS = -g -O2 -Wextra -Wstrict-prototypes -Wmissing-prototypes -Wwrite-strings -Wno-variadic-macros -Wimport -Wfatal-errors -Wformat=2 -Winit-self -Wmissing-include-dirs -Wswitch-default -Wunknown-pragmas$/;"	m
+CHARTOINT	lib/snprintf.c	493;"	d	file:
+CHECK_CHECK_H	tests/check_check.h	2;"	d
+CHECK_H	src/check.h	23;"	d
+CHECK_IMPL_H	src/check_impl.h	22;"	d
+CHECK_LIST_H	src/check_list.h	22;"	d
+CHECK_LOG_H	src/check_log.h	22;"	d
+CHECK_MAJOR_VERSION	Makefile	/^CHECK_MAJOR_VERSION = 0$/;"	m
+CHECK_MAJOR_VERSION	checkmk/Makefile	/^CHECK_MAJOR_VERSION = 0$/;"	m
+CHECK_MAJOR_VERSION	doc/Makefile	/^CHECK_MAJOR_VERSION = 0$/;"	m
+CHECK_MAJOR_VERSION	lib/Makefile	/^CHECK_MAJOR_VERSION = 0$/;"	m
+CHECK_MAJOR_VERSION	src/Makefile	/^CHECK_MAJOR_VERSION = 0$/;"	m
+CHECK_MAJOR_VERSION	src/check.h	81;"	d
+CHECK_MAJOR_VERSION	tests/Makefile	/^CHECK_MAJOR_VERSION = 0$/;"	m
+CHECK_MICRO_VERSION	Makefile	/^CHECK_MICRO_VERSION = 0$/;"	m
+CHECK_MICRO_VERSION	checkmk/Makefile	/^CHECK_MICRO_VERSION = 0$/;"	m
+CHECK_MICRO_VERSION	doc/Makefile	/^CHECK_MICRO_VERSION = 0$/;"	m
+CHECK_MICRO_VERSION	lib/Makefile	/^CHECK_MICRO_VERSION = 0$/;"	m
+CHECK_MICRO_VERSION	src/Makefile	/^CHECK_MICRO_VERSION = 0$/;"	m
+CHECK_MICRO_VERSION	src/check.h	83;"	d
+CHECK_MICRO_VERSION	tests/Makefile	/^CHECK_MICRO_VERSION = 0$/;"	m
+CHECK_MINOR_VERSION	Makefile	/^CHECK_MINOR_VERSION = 10$/;"	m
+CHECK_MINOR_VERSION	checkmk/Makefile	/^CHECK_MINOR_VERSION = 10$/;"	m
+CHECK_MINOR_VERSION	doc/Makefile	/^CHECK_MINOR_VERSION = 10$/;"	m
+CHECK_MINOR_VERSION	lib/Makefile	/^CHECK_MINOR_VERSION = 10$/;"	m
+CHECK_MINOR_VERSION	src/Makefile	/^CHECK_MINOR_VERSION = 10$/;"	m
+CHECK_MINOR_VERSION	src/check.h	82;"	d
+CHECK_MINOR_VERSION	tests/Makefile	/^CHECK_MINOR_VERSION = 10$/;"	m
+CHECK_MSG_NEW_H	src/check_msg.h	22;"	d
+CHECK_PACK_H	src/check_pack.h	22;"	d
+CHECK_PRINT_H	src/check_print.h	22;"	d
+CHECK_STR_H	src/check_str.h	22;"	d
+CHECK_VERSION	Makefile	/^CHECK_VERSION = 0.10.0$/;"	m
+CHECK_VERSION	checkmk/Makefile	/^CHECK_VERSION = 0.10.0$/;"	m
+CHECK_VERSION	doc/Makefile	/^CHECK_VERSION = 0.10.0$/;"	m
+CHECK_VERSION	lib/Makefile	/^CHECK_VERSION = 0.10.0$/;"	m
+CHECK_VERSION	src/Makefile	/^CHECK_VERSION = 0.10.0$/;"	m
+CHECK_VERSION	tests/Makefile	/^CHECK_VERSION = 0.10.0$/;"	m
+CK_ATTRIBUTE_NORETURN	lib/libcompat.h	23;"	d
+CK_ATTRIBUTE_NORETURN	lib/libcompat.h	25;"	d
+CK_ATTRIBUTE_NORETURN	src/check.h	57;"	d
+CK_ATTRIBUTE_UNUSED	lib/libcompat.h	17;"	d
+CK_ATTRIBUTE_UNUSED	lib/libcompat.h	19;"	d
+CK_ATTRIBUTE_UNUSED	src/check.h	51;"	d
+CK_CPPEND	src/check.h	38;"	d
+CK_CPPSTART	src/check.h	37;"	d
+CK_CTX_INVALID	src/check.h	/^    CK_CTX_INVALID,             \/**< Default value; should not encounter this *\/$/;"	e	enum:ck_result_ctx
+CK_CTX_SETUP	src/check.h	/^    CK_CTX_SETUP,               \/**< Setup before a test *\/$/;"	e	enum:ck_result_ctx
+CK_CTX_TEARDOWN	src/check.h	/^    CK_CTX_TEARDOWN             \/**< Teardown after a test *\/$/;"	e	enum:ck_result_ctx
+CK_CTX_TEST	src/check.h	/^    CK_CTX_TEST,                \/**< Body of test itself *\/$/;"	e	enum:ck_result_ctx
+CK_DLL_EXP	lib/libcompat.h	34;"	d
+CK_DLL_EXP	src/check.h	76;"	d
+CK_ENV	src/check.h	/^    CK_ENV,                     \/**< Look at environment var CK_VERBOSITY$/;"	e	enum:print_output
+CK_ERROR	src/check.h	/^    CK_ERROR                    \/**< Test failed to complete$/;"	e	enum:test_result
+CK_EXPORT	src/check.h	68;"	d
+CK_FAILURE	src/check.h	/^    CK_FAILURE,                 \/**< Test completed but failed *\/$/;"	e	enum:test_result
+CK_FORK	src/check.h	/^    CK_FORK,                    \/**< call fork to run tests *\/$/;"	e	enum:fork_status
+CK_FORK_GETENV	src/check.h	/^    CK_FORK_GETENV,             \/**< look in the environment for CK_FORK *\/$/;"	e	enum:fork_status
+CK_FORK_TEST	src/check_run.c	/^    CK_FORK_TEST,$/;"	e	enum:tf_type	file:
+CK_LAST	src/check.h	/^    CK_LAST                     \/**< Not a valid option *\/$/;"	e	enum:print_output
+CK_MAX_MSG_SIZE	src/check_pack.c	41;"	d	file:
+CK_MINIMAL	src/check.h	/^    CK_MINIMAL,                 \/**< Only summary output *\/$/;"	e	enum:print_output
+CK_MSG_CTX	src/check_pack.h	/^    CK_MSG_CTX,$/;"	e	enum:ck_msg_type
+CK_MSG_DURATION	src/check_pack.h	/^    CK_MSG_DURATION,$/;"	e	enum:ck_msg_type
+CK_MSG_FAIL	src/check_pack.h	/^    CK_MSG_FAIL,$/;"	e	enum:ck_msg_type
+CK_MSG_LAST	src/check_pack.h	/^    CK_MSG_LAST$/;"	e	enum:ck_msg_type
+CK_MSG_LOC	src/check_pack.h	/^    CK_MSG_LOC,$/;"	e	enum:ck_msg_type
+CK_NOFORK	src/check.h	/^    CK_NOFORK                   \/**< don't call fork *\/$/;"	e	enum:fork_status
+CK_NOFORK_FIXTURE	src/check_run.c	/^    CK_NOFORK_FIXTURE$/;"	e	enum:tf_type	file:
+CK_NOFORK_TEST	src/check_run.c	/^    CK_NOFORK_TEST,$/;"	e	enum:tf_type	file:
+CK_NORMAL	src/check.h	/^    CK_NORMAL,                  \/**< All failed tests *\/$/;"	e	enum:print_output
+CK_PASS	src/check.h	/^    CK_PASS,                    \/**< Test passed *\/$/;"	e	enum:test_result
+CK_R_EXIT	src/check_run.c	/^    CK_R_EXIT,$/;"	e	enum:rinfo	file:
+CK_R_FAIL_FIXTURE	src/check_run.c	/^    CK_R_FAIL_FIXTURE$/;"	e	enum:rinfo	file:
+CK_R_FAIL_TEST	src/check_run.c	/^    CK_R_FAIL_TEST,$/;"	e	enum:rinfo	file:
+CK_R_PASS	src/check_run.c	/^    CK_R_PASS,$/;"	e	enum:rinfo	file:
+CK_R_SIG	src/check_run.c	/^    CK_R_SIG,$/;"	e	enum:rinfo	file:
+CK_SILENT	src/check.h	/^    CK_SILENT,                  \/**< No output *\/$/;"	e	enum:print_output
+CK_TEST_RESULT_INVALID	src/check.h	/^    CK_TEST_RESULT_INVALID,     \/**< Default value; should not encounter this *\/$/;"	e	enum:test_result
+CK_VERBOSE	src/check.h	/^    CK_VERBOSE,                 \/**< All tests *\/$/;"	e	enum:print_output
+CLEANFILES	Makefile	/^CLEANFILES = *~\\$/;"	m
+CLEANFILES	doc/Makefile	/^CLEANFILES = *~ *.diff$/;"	m
+CLEANFILES	src/Makefile	/^CLEANFILES = *~ *.gcno $(EXPORT_SYM)$/;"	m
+CLEANFILES	tests/Makefile	/^CLEANFILES = *~ *.log *.xml *.tap test_logfile$/;"	m
+CLENDLOG_SR	src/check_impl.h	/^    CLENDLOG_SR,                \/* Tests are complete *\/$/;"	e	enum:cl_event
+CLEND_S	src/check_impl.h	/^    CLEND_S,                    \/* Suite end *\/$/;"	e	enum:cl_event
+CLEND_SR	src/check_impl.h	/^    CLEND_SR,                   \/* Suite runner end *\/$/;"	e	enum:cl_event
+CLEND_T	src/check_impl.h	/^    CLEND_T                     \/* Test case end *\/$/;"	e	enum:cl_event
+CLINITLOG_SR	src/check_impl.h	/^    CLINITLOG_SR,               \/* Initialize log file *\/$/;"	e	enum:cl_event
+CLOCK_MONOTONIC	lib/libcompat.h	133;"	d
+CLOCK_REALTIME	lib/libcompat.h	136;"	d
+CLSTART_S	src/check_impl.h	/^    CLSTART_S,                  \/* Suite start *\/$/;"	e	enum:cl_event
+CLSTART_SR	src/check_impl.h	/^    CLSTART_SR,                 \/* Suite runner start *\/$/;"	e	enum:cl_event
+CLSTART_T	src/check_impl.h	/^    CLSTART_T,                  \/* A test case is about to run *\/$/;"	e	enum:cl_event
+COMPILE	lib/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	tests/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES = check.pc$/;"	m
+CONFIG_CLEAN_FILES	checkmk/Makefile	/^CONFIG_CLEAN_FILES = checkmk$/;"	m
+CONFIG_CLEAN_FILES	doc/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	lib/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	src/Makefile	/^CONFIG_CLEAN_FILES = check.h$/;"	m
+CONFIG_CLEAN_FILES	tests/Makefile	/^CONFIG_CLEAN_FILES = test_vars$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	checkmk/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	doc/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	lib/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	tests/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	checkmk/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	doc/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	lib/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	tests/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_STATUS_DEPENDENCIES	checkmk/Makefile	/^CONFIG_STATUS_DEPENDENCIES = checkmk.in$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPP	checkmk/Makefile	/^CPP = gcc -E$/;"	m
+CPP	doc/Makefile	/^CPP = gcc -E$/;"	m
+CPP	lib/Makefile	/^CPP = gcc -E$/;"	m
+CPP	src/Makefile	/^CPP = gcc -E$/;"	m
+CPP	tests/Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	checkmk/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	doc/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	lib/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	src/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	tests/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	lib/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	src/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	tests/Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	checkmk/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	doc/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	lib/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	src/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	tests/Makefile	/^CYGPATH_W = echo$/;"	m
+CheckMsg	src/check_pack.h	/^} CheckMsg;$/;"	t	typeref:union:__anon1
+CreateProcess	build-aux/ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	libtool	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CtxMsg	src/check_pack.h	/^typedef struct CtxMsg$/;"	s
+CtxMsg	src/check_pack.h	/^} CtxMsg;$/;"	t	typeref:struct:CtxMsg
+DATA	Makefile	/^DATA = $(doc_DATA) $(m4data_DATA) $(pcdata_DATA)$/;"	m
+DATA	doc/Makefile	/^DATA = $(example_DATA) $(examplesrc_DATA) $(exampletests_DATA)$/;"	m
+DEFAULT_INCLUDES	lib/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	tests/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_TIMEOUT	src/check.c	36;"	d	file:
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	checkmk/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	doc/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	lib/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	tests/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DELIMITER	lib/getline.c	5;"	d	file:
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	checkmk/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	doc/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	lib/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	src/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	tests/Makefile	/^DEPDIR = .deps$/;"	m
+DIFF_IN_USEC	src/check_impl.h	33;"	d
+DISTCLEANFILES	Makefile	/^DISTCLEANFILES = check_stdint.h$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	checkmk/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	doc/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	lib/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	tests/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = README $(am__configure_deps) $(include_HEADERS) \\$/;"	m
+DIST_COMMON	checkmk/Makefile	/^DIST_COMMON = README $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in \\$/;"	m
+DIST_COMMON	doc/Makefile	/^DIST_COMMON = $(check_TEXINFOS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	lib/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in alarm.c \\$/;"	m
+DIST_COMMON	src/Makefile	/^DIST_COMMON = $(include_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	tests/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	checkmk/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	doc/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	lib/Makefile	/^DIST_SOURCES = $(libcompat_la_SOURCES)$/;"	m
+DIST_SOURCES	src/Makefile	/^DIST_SOURCES = $(libcheck_la_SOURCES) $(libcheckinternal_la_SOURCES)$/;"	m
+DIST_SOURCES	tests/Makefile	/^DIST_SOURCES = $(check_check_SOURCES) $(check_check_export_SOURCES) \\$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	checkmk/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	doc/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	lib/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	src/Makefile	/^DLLTOOL = false$/;"	m
+DLLTOOL	tests/Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	checkmk/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	doc/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	lib/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	src/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	tests/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	checkmk/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	doc/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	lib/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	src/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	tests/Makefile	/^DUMPBIN = $/;"	m
+DVIPS	doc/Makefile	/^DVIPS = dvips$/;"	m
+DVIS	doc/Makefile	/^DVIS = check.dvi$/;"	m
+DurationMsg	src/check_pack.h	/^typedef struct DurationMsg$/;"	s
+DurationMsg	src/check_pack.h	/^} DurationMsg;$/;"	t	typeref:struct:DurationMsg
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	checkmk/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	doc/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	lib/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	src/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	tests/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	checkmk/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	doc/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	lib/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	tests/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	checkmk/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	doc/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	lib/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	src/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	tests/Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	checkmk/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	doc/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	lib/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	src/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	tests/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENABLE_SUBUNIT	Makefile	/^ENABLE_SUBUNIT = 0$/;"	m
+ENABLE_SUBUNIT	checkmk/Makefile	/^ENABLE_SUBUNIT = 0$/;"	m
+ENABLE_SUBUNIT	config.h	5;"	d
+ENABLE_SUBUNIT	doc/Makefile	/^ENABLE_SUBUNIT = 0$/;"	m
+ENABLE_SUBUNIT	lib/Makefile	/^ENABLE_SUBUNIT = 0$/;"	m
+ENABLE_SUBUNIT	src/Makefile	/^ENABLE_SUBUNIT = 0$/;"	m
+ENABLE_SUBUNIT	tests/Makefile	/^ENABLE_SUBUNIT = 0$/;"	m
+END_TEST	src/check.h	379;"	d
+EOVERFLOW	lib/snprintf.c	446;"	d	file:
+EPOCHFILETIME	lib/gettimeofday.c	5;"	d	file:
+EPOCHFILETIME	lib/gettimeofday.c	7;"	d	file:
+ERANGE	lib/snprintf.c	443;"	d	file:
+ERROR_H	src/check_error.h	22;"	d
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	lib/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	src/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	tests/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	checkmk/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	doc/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	lib/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	src/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	tests/Makefile	/^EXEEXT = $/;"	m
+EXPORT_SYM	src/Makefile	/^EXPORT_SYM = exported.sym$/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = SVNChangeLog ChangeLogOld check.pc.in $(m4data_DATA) xml\/check_unittest.xslt \\$/;"	m
+EXTRA_DIST	checkmk/Makefile	/^EXTRA_DIST = test examples doc\/checkmk.1$/;"	m
+EXTRA_DIST	doc/Makefile	/^EXTRA_DIST = $(example_docs) \\$/;"	m
+EXTRA_DIST	src/Makefile	/^EXTRA_DIST = check.h.in$/;"	m
+EXTRA_DIST	tests/Makefile	/^EXTRA_DIST = test_output.sh test_check_nofork.sh test_check_nofork_teardown.sh test_log_output.sh test_vars.in test_xml_output.sh test_tap_output.sh test_mem_leaks.sh test_output_strings$/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	checkmk/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	doc/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	lib/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	src/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	tests/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FailMsg	src/check_pack.h	/^typedef struct FailMsg$/;"	s
+FailMsg	src/check_pack.h	/^} FailMsg;$/;"	t	typeref:struct:FailMsg
+Fixture	src/check_impl.h	/^typedef struct Fixture$/;"	s
+Fixture	src/check_impl.h	/^} Fixture;$/;"	t	typeref:struct:Fixture
+GCC_VERSION_AT_LEAST	lib/libcompat.h	13;"	d
+GCC_VERSION_AT_LEAST	lib/libcompat.h	9;"	d
+GCC_VERSION_AT_LEAST	src/check.h	43;"	d
+GCOV	Makefile	/^GCOV = gcov$/;"	m
+GCOV	checkmk/Makefile	/^GCOV = gcov$/;"	m
+GCOV	doc/Makefile	/^GCOV = gcov$/;"	m
+GCOV	lib/Makefile	/^GCOV = gcov$/;"	m
+GCOV	src/Makefile	/^GCOV = gcov$/;"	m
+GCOV	tests/Makefile	/^GCOV = gcov$/;"	m
+GCOV_CFLAGS	Makefile	/^GCOV_CFLAGS = $/;"	m
+GCOV_CFLAGS	checkmk/Makefile	/^GCOV_CFLAGS = $/;"	m
+GCOV_CFLAGS	doc/Makefile	/^GCOV_CFLAGS = $/;"	m
+GCOV_CFLAGS	lib/Makefile	/^GCOV_CFLAGS = $/;"	m
+GCOV_CFLAGS	src/Makefile	/^GCOV_CFLAGS = $/;"	m
+GCOV_CFLAGS	tests/Makefile	/^GCOV_CFLAGS = $/;"	m
+GCOV_LIBS	Makefile	/^GCOV_LIBS = $/;"	m
+GCOV_LIBS	checkmk/Makefile	/^GCOV_LIBS = $/;"	m
+GCOV_LIBS	doc/Makefile	/^GCOV_LIBS = $/;"	m
+GCOV_LIBS	lib/Makefile	/^GCOV_LIBS = $/;"	m
+GCOV_LIBS	src/Makefile	/^GCOV_LIBS = $/;"	m
+GCOV_LIBS	tests/Makefile	/^GCOV_LIBS = $/;"	m
+GENHTML	Makefile	/^GENHTML = false$/;"	m
+GENHTML	checkmk/Makefile	/^GENHTML = false$/;"	m
+GENHTML	doc/Makefile	/^GENHTML = false$/;"	m
+GENHTML	lib/Makefile	/^GENHTML = false$/;"	m
+GENHTML	src/Makefile	/^GENHTML = false$/;"	m
+GENHTML	tests/Makefile	/^GENHTML = false$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	checkmk/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	doc/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	lib/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	src/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	tests/Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+HAVE_ALARM	config.h	8;"	d
+HAVE_ASPRINTF	config.h	11;"	d
+HAVE_ASPRINTF	lib/snprintf.c	199;"	d	file:
+HAVE_CLOCK_GETTIME	config.h	14;"	d
+HAVE_DECL_ALARM	config.h	18;"	d
+HAVE_DECL_CLOCK_GETTIME	config.h	22;"	d
+HAVE_DECL_GETLINE_GETTIMEOFDAY	config.h	26;"	d
+HAVE_DECL_LOCALTIME_R	config.h	30;"	d
+HAVE_DECL_SETENV	config.h	34;"	d
+HAVE_DECL_STRDUP	config.h	38;"	d
+HAVE_DECL_STRSIGNAL	config.h	42;"	d
+HAVE_DLFCN_H	config.h	57;"	d
+HAVE_FCNTL_H	config.h	60;"	d
+HAVE_FORK	Makefile	/^HAVE_FORK = 1$/;"	m
+HAVE_FORK	checkmk/Makefile	/^HAVE_FORK = 1$/;"	m
+HAVE_FORK	config.h	63;"	d
+HAVE_FORK	doc/Makefile	/^HAVE_FORK = 1$/;"	m
+HAVE_FORK	lib/Makefile	/^HAVE_FORK = 1$/;"	m
+HAVE_FORK	src/Makefile	/^HAVE_FORK = 1$/;"	m
+HAVE_FORK	tests/Makefile	/^HAVE_FORK = 1$/;"	m
+HAVE_GETLINE	config.h	66;"	d
+HAVE_GETTIMEOFDAY	config.h	69;"	d
+HAVE_INTMAX_T	config.h	72;"	d
+HAVE_INTMAX_T	lib/snprintf.c	254;"	d	file:
+HAVE_INTTYPES_H	config.h	75;"	d
+HAVE_INTTYPES_H	lib/snprintf.c	230;"	d	file:
+HAVE_LCONV_DECIMAL_POINT	lib/snprintf.c	239;"	d	file:
+HAVE_LCONV_THOUSANDS_SEP	lib/snprintf.c	242;"	d	file:
+HAVE_LIBM	config.h	78;"	d
+HAVE_LIBRT	config.h	81;"	d
+HAVE_LOCALECONV	lib/snprintf.c	236;"	d	file:
+HAVE_LOCALE_H	lib/snprintf.c	233;"	d	file:
+HAVE_LOCALTIME_R	config.h	90;"	d
+HAVE_LONG_DOUBLE	lib/snprintf.c	245;"	d	file:
+HAVE_LONG_LONG_INT	config.h	96;"	d
+HAVE_LONG_LONG_INT	lib/snprintf.c	248;"	d	file:
+HAVE_MALLOC	config.h	100;"	d
+HAVE_MEMORY_H	config.h	103;"	d
+HAVE_MKSTEMP	config.h	106;"	d
+HAVE_PTHREAD	config.h	109;"	d
+HAVE_PTRDIFF_T	lib/snprintf.c	263;"	d	file:
+HAVE_REALLOC	config.h	116;"	d
+HAVE_SETITIMER	config.h	119;"	d
+HAVE_SIGACTION	config.h	122;"	d
+HAVE_SNPRINTF	config.h	125;"	d
+HAVE_SNPRINTF	lib/snprintf.c	193;"	d	file:
+HAVE_STDARG_H	config.h	128;"	d
+HAVE_STDARG_H	lib/snprintf.c	218;"	d	file:
+HAVE_STDDEF_H	config.h	131;"	d
+HAVE_STDDEF_H	lib/snprintf.c	221;"	d	file:
+HAVE_STDINT_H	config.h	134;"	d
+HAVE_STDINT_H	lib/snprintf.c	224;"	d	file:
+HAVE_STDLIB_H	config.h	137;"	d
+HAVE_STDLIB_H	lib/snprintf.c	227;"	d	file:
+HAVE_STRDUP	config.h	140;"	d
+HAVE_STRINGS_H	config.h	143;"	d
+HAVE_STRING_H	config.h	146;"	d
+HAVE_STRSIGNAL	config.h	149;"	d
+HAVE_STRUCT_ITIMERSPEC_IT_INTERVAL	config.h	152;"	d
+HAVE_STRUCT_ITIMERSPEC_IT_VALUE	config.h	155;"	d
+HAVE_STRUCT_TIMESPEC_TV_NSEC	config.h	164;"	d
+HAVE_STRUCT_TIMESPEC_TV_SEC	config.h	167;"	d
+HAVE_SYS_STAT_H	config.h	170;"	d
+HAVE_SYS_TIME_H	config.h	173;"	d
+HAVE_SYS_TYPES_H	config.h	176;"	d
+HAVE_SYS_WAIT_H	config.h	179;"	d
+HAVE_TIME_H	config.h	191;"	d
+HAVE_UINTMAX_T	config.h	194;"	d
+HAVE_UINTMAX_T	lib/snprintf.c	257;"	d	file:
+HAVE_UINTPTR_T	lib/snprintf.c	260;"	d	file:
+HAVE_UNISTD_H	config.h	200;"	d
+HAVE_UNSIGNED_LONG_LONG_INT	config.h	203;"	d
+HAVE_UNSIGNED_LONG_LONG_INT	lib/snprintf.c	251;"	d	file:
+HAVE_VASPRINTF	config.h	209;"	d
+HAVE_VASPRINTF	lib/snprintf.c	202;"	d	file:
+HAVE_VA_COPY	lib/snprintf.c	266;"	d	file:
+HAVE_VSNPRINTF	config.h	215;"	d
+HAVE_VSNPRINTF	lib/snprintf.c	196;"	d	file:
+HAVE___VA_COPY	lib/snprintf.c	269;"	d	file:
+HEADERS	Makefile	/^HEADERS = $(include_HEADERS)$/;"	m
+HEADERS	src/Makefile	/^HEADERS = $(include_HEADERS)$/;"	m
+HFILES	src/Makefile	/^HFILES = \\$/;"	m
+HTMLS	doc/Makefile	/^HTMLS = check.html$/;"	m
+INCLUDE_EXIT_TEST_ARG	tests/ex_output.c	202;"	d	file:
+INFO_DEPS	doc/Makefile	/^INFO_DEPS = $(srcdir)\/check.info$/;"	m
+INITIAL_SIZE	lib/getline.c	4;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	checkmk/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	doc/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	lib/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	tests/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	checkmk/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	doc/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	lib/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	tests/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	checkmk/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	doc/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	lib/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	tests/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	checkmk/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	doc/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	lib/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	tests/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	checkmk/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	doc/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	lib/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	tests/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	checkmk/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	doc/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	lib/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	tests/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INTMAX_T	lib/snprintf.c	399;"	d	file:
+INTMAX_T	lib/snprintf.c	401;"	d	file:
+ISDIGIT	lib/snprintf.c	496;"	d	file:
+ISINF	lib/snprintf.c	502;"	d	file:
+ISNAN	lib/snprintf.c	499;"	d	file:
+LANG	src/Makefile	/^	LANG=C $(LCOV_GENHTML) --output-directory $@ --title "Check Code Coverage" --show-details $<$/;"	m
+LCOV	Makefile	/^LCOV = false$/;"	m
+LCOV	checkmk/Makefile	/^LCOV = false$/;"	m
+LCOV	doc/Makefile	/^LCOV = false$/;"	m
+LCOV	lib/Makefile	/^LCOV = false$/;"	m
+LCOV	src/Makefile	/^LCOV = false$/;"	m
+LCOV	tests/Makefile	/^LCOV = false$/;"	m
+LCOV_GENHTML	src/Makefile	/^LCOV_GENHTML = false$/;"	m
+LCOV_HTML	src/Makefile	/^LCOV_HTML = lcov_html$/;"	m
+LCOV_INPUT	src/Makefile	/^LCOV_INPUT = $(CFILES:%.c=.libs\/%.gcda)$/;"	m
+LCOV_LCOV	src/Makefile	/^LCOV_LCOV = false$/;"	m
+LCOV_OUTPUT	src/Makefile	/^LCOV_OUTPUT = lcov.info$/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	checkmk/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	doc/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	lib/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	src/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	tests/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	checkmk/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	doc/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	lib/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	src/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	tests/Makefile	/^LDFLAGS = $/;"	m
+LDOUBLE	lib/snprintf.c	381;"	d	file:
+LDOUBLE	lib/snprintf.c	383;"	d	file:
+LFun	src/check_impl.h	/^typedef void (*LFun) (SRunner *, FILE *, enum print_output,$/;"	t
+LGROW	src/check_list.c	/^    LGROW = 2$/;"	e	enum:__anon2	file:
+LIBCOMPAT_H	lib/libcompat.h	2;"	d
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	checkmk/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	doc/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	lib/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	src/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	tests/Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = -lrt -lm $/;"	m
+LIBS	checkmk/Makefile	/^LIBS = -lrt -lm $/;"	m
+LIBS	doc/Makefile	/^LIBS = -lrt -lm $/;"	m
+LIBS	lib/Makefile	/^LIBS = -lrt -lm $/;"	m
+LIBS	src/Makefile	/^LIBS = -lrt -lm $/;"	m
+LIBS	tests/Makefile	/^LIBS = -lrt -lm $/;"	m
+LIBSUBUNIT_CFLAGS	Makefile	/^LIBSUBUNIT_CFLAGS = $/;"	m
+LIBSUBUNIT_CFLAGS	checkmk/Makefile	/^LIBSUBUNIT_CFLAGS = $/;"	m
+LIBSUBUNIT_CFLAGS	doc/Makefile	/^LIBSUBUNIT_CFLAGS = $/;"	m
+LIBSUBUNIT_CFLAGS	lib/Makefile	/^LIBSUBUNIT_CFLAGS = $/;"	m
+LIBSUBUNIT_CFLAGS	src/Makefile	/^LIBSUBUNIT_CFLAGS = $/;"	m
+LIBSUBUNIT_CFLAGS	tests/Makefile	/^LIBSUBUNIT_CFLAGS = $/;"	m
+LIBSUBUNIT_LIBS	Makefile	/^LIBSUBUNIT_LIBS = $/;"	m
+LIBSUBUNIT_LIBS	checkmk/Makefile	/^LIBSUBUNIT_LIBS = $/;"	m
+LIBSUBUNIT_LIBS	doc/Makefile	/^LIBSUBUNIT_LIBS = $/;"	m
+LIBSUBUNIT_LIBS	lib/Makefile	/^LIBSUBUNIT_LIBS = $/;"	m
+LIBSUBUNIT_LIBS	src/Makefile	/^LIBSUBUNIT_LIBS = $/;"	m
+LIBSUBUNIT_LIBS	tests/Makefile	/^LIBSUBUNIT_LIBS = $/;"	m
+LIBSUBUNIT_PC	Makefile	/^LIBSUBUNIT_PC = $/;"	m
+LIBSUBUNIT_PC	checkmk/Makefile	/^LIBSUBUNIT_PC = $/;"	m
+LIBSUBUNIT_PC	doc/Makefile	/^LIBSUBUNIT_PC = $/;"	m
+LIBSUBUNIT_PC	lib/Makefile	/^LIBSUBUNIT_PC = $/;"	m
+LIBSUBUNIT_PC	src/Makefile	/^LIBSUBUNIT_PC = $/;"	m
+LIBSUBUNIT_PC	tests/Makefile	/^LIBSUBUNIT_PC = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	checkmk/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	doc/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	lib/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	src/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	tests/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINIT	src/check_list.c	/^    LINIT = 1,$/;"	e	enum:__anon2	file:
+LINK	lib/Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LINK	src/Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LINK	tests/Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LIPO	checkmk/Makefile	/^LIPO = $/;"	m
+LIPO	doc/Makefile	/^LIPO = $/;"	m
+LIPO	lib/Makefile	/^LIPO = $/;"	m
+LIPO	src/Makefile	/^LIPO = $/;"	m
+LIPO	tests/Makefile	/^LIPO = $/;"	m
+LLONG	lib/snprintf.c	390;"	d	file:
+LLONG	lib/snprintf.c	392;"	d	file:
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LN_S	checkmk/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	doc/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	lib/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	src/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	tests/Makefile	/^LN_S = ln -s$/;"	m
+LOG_TYPE_ARG	tests/ex_output.c	201;"	d	file:
+LTCOMPILE	lib/Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	src/Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	tests/Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	checkmk/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	doc/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	lib/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	tests/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	lib/Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+LTLIBRARIES	src/Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES) $(noinst_LTLIBRARIES)$/;"	m
+LT_OBJDIR	config.h	222;"	d
+List	src/check_list.c	/^struct List$/;"	s	file:
+List	src/check_list.h	/^typedef struct List List;$/;"	t	typeref:struct:List
+LocMsg	src/check_pack.h	/^typedef struct LocMsg$/;"	s
+LocMsg	src/check_pack.h	/^} LocMsg;$/;"	t	typeref:struct:LocMsg
+Log	src/check_impl.h	/^typedef struct Log$/;"	s
+Log	src/check_impl.h	/^} Log;$/;"	t	typeref:struct:Log
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run makeinfo$/;"	m
+MAKEINFO	checkmk/Makefile	/^MAKEINFO = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run makeinfo$/;"	m
+MAKEINFO	doc/Makefile	/^MAKEINFO = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run makeinfo$/;"	m
+MAKEINFO	lib/Makefile	/^MAKEINFO = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run makeinfo$/;"	m
+MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run makeinfo$/;"	m
+MAKEINFO	tests/Makefile	/^MAKEINFO = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/missing --run makeinfo$/;"	m
+MAKEINFOHTML	doc/Makefile	/^MAKEINFOHTML = $(MAKEINFO) --html$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	checkmk/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	doc/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	lib/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	src/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANIFEST_TOOL	tests/Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANS	checkmk/Makefile	/^MANS = $(man_MANS)$/;"	m
+MAX	lib/snprintf.c	490;"	d	file:
+MAXSTR	tests/check_check_master.c	19;"	d	file:
+MAX_CONVERT_LENGTH	lib/snprintf.c	454;"	d	file:
+MAX_CONVERT_LENGTH	lib/snprintf.c	456;"	d	file:
+MEMORY_LEAKING_TESTS_ENABLED	tests/check_check.h	14;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	checkmk/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	doc/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	lib/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	tests/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MONEY_H	doc/example/src/money.1.h	2;"	d
+MONEY_H	doc/example/src/money.2.h	2;"	d
+MONEY_H	doc/example/src/money.h	2;"	d
+MSG_LEN	src/check_run.c	142;"	d	file:
+Money	doc/example/src/money.2.h	/^typedef struct Money Money;$/;"	t	typeref:struct:Money
+Money	doc/example/src/money.4.c	/^struct Money$/;"	s	file:
+Money	doc/example/src/money.5.c	/^struct Money$/;"	s	file:
+Money	doc/example/src/money.6.c	/^struct Money$/;"	s	file:
+Money	doc/example/src/money.c	/^struct Money$/;"	s	file:
+Money	doc/example/src/money.h	/^typedef struct Money Money;$/;"	t	typeref:struct:Money
+NANOSECONDS_PER_SECOND	lib/clock_gettime.c	11;"	d	file:
+NANOS_PER_SECONDS	src/check_impl.h	30;"	d
+NEED_MYMEMCPY	lib/snprintf.c	316;"	d	file:
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	checkmk/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	doc/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	lib/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	src/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	tests/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NMEDIT	checkmk/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	doc/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	lib/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	src/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	tests/Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	checkmk/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	doc/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	lib/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	tests/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	checkmk/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	doc/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	lib/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	tests/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NROFF	checkmk/Makefile	/^NROFF = nroff$/;"	m
+NULL	src/check.h	90;"	d
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	checkmk/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	doc/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	lib/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	src/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJDUMP	tests/Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	checkmk/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	doc/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	lib/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	src/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	tests/Makefile	/^OBJEXT = o$/;"	m
+OS_BSD	lib/snprintf.c	179;"	d	file:
+OS_IRIX	lib/snprintf.c	184;"	d	file:
+OS_LINUX	lib/snprintf.c	189;"	d	file:
+OS_SYSV	lib/snprintf.c	185;"	d	file:
+OS_SYSV	lib/snprintf.c	187;"	d	file:
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL	checkmk/Makefile	/^OTOOL = $/;"	m
+OTOOL	doc/Makefile	/^OTOOL = $/;"	m
+OTOOL	lib/Makefile	/^OTOOL = $/;"	m
+OTOOL	src/Makefile	/^OTOOL = $/;"	m
+OTOOL	tests/Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	checkmk/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	doc/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	lib/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	src/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	tests/Makefile	/^OTOOL64 = $/;"	m
+OUTCHAR	lib/snprintf.c	506;"	d	file:
+OUTCHAR	lib/snprintf.c	508;"	d	file:
+OUTPUT_TYPE_ARG	tests/ex_output.c	200;"	d	file:
+PACKAGE	Makefile	/^PACKAGE = check$/;"	m
+PACKAGE	checkmk/Makefile	/^PACKAGE = check$/;"	m
+PACKAGE	config.h	228;"	d
+PACKAGE	doc/Makefile	/^PACKAGE = check$/;"	m
+PACKAGE	lib/Makefile	/^PACKAGE = check$/;"	m
+PACKAGE	src/Makefile	/^PACKAGE = check$/;"	m
+PACKAGE	tests/Makefile	/^PACKAGE = check$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = check-devel at lists dot sourceforge dot net$/;"	m
+PACKAGE_BUGREPORT	checkmk/Makefile	/^PACKAGE_BUGREPORT = check-devel at lists dot sourceforge dot net$/;"	m
+PACKAGE_BUGREPORT	config.h	231;"	d
+PACKAGE_BUGREPORT	doc/Makefile	/^PACKAGE_BUGREPORT = check-devel at lists dot sourceforge dot net$/;"	m
+PACKAGE_BUGREPORT	lib/Makefile	/^PACKAGE_BUGREPORT = check-devel at lists dot sourceforge dot net$/;"	m
+PACKAGE_BUGREPORT	src/Makefile	/^PACKAGE_BUGREPORT = check-devel at lists dot sourceforge dot net$/;"	m
+PACKAGE_BUGREPORT	tests/Makefile	/^PACKAGE_BUGREPORT = check-devel at lists dot sourceforge dot net$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = Check$/;"	m
+PACKAGE_NAME	checkmk/Makefile	/^PACKAGE_NAME = Check$/;"	m
+PACKAGE_NAME	config.h	234;"	d
+PACKAGE_NAME	doc/Makefile	/^PACKAGE_NAME = Check$/;"	m
+PACKAGE_NAME	lib/Makefile	/^PACKAGE_NAME = Check$/;"	m
+PACKAGE_NAME	src/Makefile	/^PACKAGE_NAME = Check$/;"	m
+PACKAGE_NAME	tests/Makefile	/^PACKAGE_NAME = Check$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = Check 0.10.0$/;"	m
+PACKAGE_STRING	checkmk/Makefile	/^PACKAGE_STRING = Check 0.10.0$/;"	m
+PACKAGE_STRING	config.h	237;"	d
+PACKAGE_STRING	doc/Makefile	/^PACKAGE_STRING = Check 0.10.0$/;"	m
+PACKAGE_STRING	lib/Makefile	/^PACKAGE_STRING = Check 0.10.0$/;"	m
+PACKAGE_STRING	src/Makefile	/^PACKAGE_STRING = Check 0.10.0$/;"	m
+PACKAGE_STRING	tests/Makefile	/^PACKAGE_STRING = Check 0.10.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = check$/;"	m
+PACKAGE_TARNAME	checkmk/Makefile	/^PACKAGE_TARNAME = check$/;"	m
+PACKAGE_TARNAME	config.h	240;"	d
+PACKAGE_TARNAME	doc/Makefile	/^PACKAGE_TARNAME = check$/;"	m
+PACKAGE_TARNAME	lib/Makefile	/^PACKAGE_TARNAME = check$/;"	m
+PACKAGE_TARNAME	src/Makefile	/^PACKAGE_TARNAME = check$/;"	m
+PACKAGE_TARNAME	tests/Makefile	/^PACKAGE_TARNAME = check$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	checkmk/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	config.h	243;"	d
+PACKAGE_URL	doc/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	lib/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	tests/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.10.0$/;"	m
+PACKAGE_VERSION	checkmk/Makefile	/^PACKAGE_VERSION = 0.10.0$/;"	m
+PACKAGE_VERSION	config.h	246;"	d
+PACKAGE_VERSION	doc/Makefile	/^PACKAGE_VERSION = 0.10.0$/;"	m
+PACKAGE_VERSION	lib/Makefile	/^PACKAGE_VERSION = 0.10.0$/;"	m
+PACKAGE_VERSION	src/Makefile	/^PACKAGE_VERSION = 0.10.0$/;"	m
+PACKAGE_VERSION	tests/Makefile	/^PACKAGE_VERSION = 0.10.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	checkmk/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	doc/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	lib/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	tests/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PDFS	doc/Makefile	/^PDFS = check.pdf$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = $/;"	m
+PKG_CONFIG	checkmk/Makefile	/^PKG_CONFIG = $/;"	m
+PKG_CONFIG	doc/Makefile	/^PKG_CONFIG = $/;"	m
+PKG_CONFIG	lib/Makefile	/^PKG_CONFIG = $/;"	m
+PKG_CONFIG	src/Makefile	/^PKG_CONFIG = $/;"	m
+PKG_CONFIG	tests/Makefile	/^PKG_CONFIG = $/;"	m
+PKG_CONFIG_LIBDIR	Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_LIBDIR	checkmk/Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_LIBDIR	doc/Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_LIBDIR	lib/Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_LIBDIR	src/Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_LIBDIR	tests/Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_PATH	Makefile	/^PKG_CONFIG_PATH = $/;"	m
+PKG_CONFIG_PATH	checkmk/Makefile	/^PKG_CONFIG_PATH = $/;"	m
+PKG_CONFIG_PATH	doc/Makefile	/^PKG_CONFIG_PATH = $/;"	m
+PKG_CONFIG_PATH	lib/Makefile	/^PKG_CONFIG_PATH = $/;"	m
+PKG_CONFIG_PATH	src/Makefile	/^PKG_CONFIG_PATH = $/;"	m
+PKG_CONFIG_PATH	tests/Makefile	/^PKG_CONFIG_PATH = $/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	checkmk/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	doc/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	lib/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	tests/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	checkmk/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	doc/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	lib/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	src/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	tests/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	checkmk/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	doc/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	lib/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	tests/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	checkmk/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	doc/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	lib/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	tests/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRINT_C_CHAR	lib/snprintf.c	480;"	d	file:
+PRINT_C_INTMAX	lib/snprintf.c	487;"	d	file:
+PRINT_C_LDOUBLE	lib/snprintf.c	484;"	d	file:
+PRINT_C_LONG	lib/snprintf.c	482;"	d	file:
+PRINT_C_PTRDIFF	lib/snprintf.c	486;"	d	file:
+PRINT_C_SHORT	lib/snprintf.c	481;"	d	file:
+PRINT_C_SIZE	lib/snprintf.c	485;"	d	file:
+PRINT_F_MINUS	lib/snprintf.c	468;"	d	file:
+PRINT_F_NUM	lib/snprintf.c	471;"	d	file:
+PRINT_F_PLUS	lib/snprintf.c	469;"	d	file:
+PRINT_F_QUOTE	lib/snprintf.c	473;"	d	file:
+PRINT_F_SPACE	lib/snprintf.c	470;"	d	file:
+PRINT_F_TYPE_E	lib/snprintf.c	477;"	d	file:
+PRINT_F_TYPE_G	lib/snprintf.c	476;"	d	file:
+PRINT_F_UNSIGNED	lib/snprintf.c	475;"	d	file:
+PRINT_F_UP	lib/snprintf.c	474;"	d	file:
+PRINT_F_ZERO	lib/snprintf.c	472;"	d	file:
+PRINT_S_CONV	lib/snprintf.c	465;"	d	file:
+PRINT_S_DEFAULT	lib/snprintf.c	459;"	d	file:
+PRINT_S_DOT	lib/snprintf.c	462;"	d	file:
+PRINT_S_FLAGS	lib/snprintf.c	460;"	d	file:
+PRINT_S_MOD	lib/snprintf.c	464;"	d	file:
+PRINT_S_PRECISION	lib/snprintf.c	463;"	d	file:
+PRINT_S_WIDTH	lib/snprintf.c	461;"	d	file:
+PROGRAMS	tests/Makefile	/^PROGRAMS = $(noinst_PROGRAMS)$/;"	m
+PSS	doc/Makefile	/^PSS = check.ps$/;"	m
+PTHREAD_CC	Makefile	/^PTHREAD_CC = gcc$/;"	m
+PTHREAD_CC	checkmk/Makefile	/^PTHREAD_CC = gcc$/;"	m
+PTHREAD_CC	doc/Makefile	/^PTHREAD_CC = gcc$/;"	m
+PTHREAD_CC	lib/Makefile	/^PTHREAD_CC = gcc$/;"	m
+PTHREAD_CC	src/Makefile	/^PTHREAD_CC = gcc$/;"	m
+PTHREAD_CC	tests/Makefile	/^PTHREAD_CC = gcc$/;"	m
+PTHREAD_CFLAGS	Makefile	/^PTHREAD_CFLAGS = -pthread$/;"	m
+PTHREAD_CFLAGS	checkmk/Makefile	/^PTHREAD_CFLAGS = -pthread$/;"	m
+PTHREAD_CFLAGS	doc/Makefile	/^PTHREAD_CFLAGS = -pthread$/;"	m
+PTHREAD_CFLAGS	lib/Makefile	/^PTHREAD_CFLAGS = -pthread$/;"	m
+PTHREAD_CFLAGS	src/Makefile	/^PTHREAD_CFLAGS = -pthread$/;"	m
+PTHREAD_CFLAGS	tests/Makefile	/^PTHREAD_CFLAGS = -pthread$/;"	m
+PTHREAD_LIBS	Makefile	/^PTHREAD_LIBS = $/;"	m
+PTHREAD_LIBS	checkmk/Makefile	/^PTHREAD_LIBS = $/;"	m
+PTHREAD_LIBS	doc/Makefile	/^PTHREAD_LIBS = $/;"	m
+PTHREAD_LIBS	lib/Makefile	/^PTHREAD_LIBS = $/;"	m
+PTHREAD_LIBS	src/Makefile	/^PTHREAD_LIBS = $/;"	m
+PTHREAD_LIBS	tests/Makefile	/^PTHREAD_LIBS = $/;"	m
+PTRDIFF_T	lib/snprintf.c	417;"	d	file:
+PTRDIFF_T	lib/snprintf.c	419;"	d	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	checkmk/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	doc/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	lib/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	src/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	tests/Makefile	/^RANLIB = ranlib$/;"	m
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RELEASE_VERSION	Makefile	/^RELEASE_VERSION ?= unset$/;"	m
+RcvMsg	src/check_pack.h	/^typedef struct RcvMsg$/;"	s
+RcvMsg	src/check_pack.h	/^} RcvMsg;$/;"	t	typeref:struct:RcvMsg
+SCRIPTS	checkmk/Makefile	/^SCRIPTS = $(bin_SCRIPTS)$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SED	checkmk/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	doc/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	lib/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	src/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	tests/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	checkmk/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	doc/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	lib/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	src/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	tests/Makefile	/^SET_MAKE = $/;"	m
+SF_USERNAME	Makefile	/^SF_USERNAME ?= unset$/;"	m
+SFun	src/check.h	/^typedef void (*SFun) (void);$/;"	t
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	checkmk/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	doc/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	lib/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	tests/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SIG_STR_LEN	tests/check_check_master.c	27;"	d	file:
+SIZEOF_INT	config.h	256;"	d
+SIZEOF_LONG	config.h	259;"	d
+SIZEOF_SHORT	config.h	262;"	d
+SOURCES	Makefile	/^SOURCES =$/;"	m
+SOURCES	checkmk/Makefile	/^SOURCES =$/;"	m
+SOURCES	doc/Makefile	/^SOURCES =$/;"	m
+SOURCES	lib/Makefile	/^SOURCES = $(libcompat_la_SOURCES)$/;"	m
+SOURCES	src/Makefile	/^SOURCES = $(libcheck_la_SOURCES) $(libcheckinternal_la_SOURCES)$/;"	m
+SOURCES	tests/Makefile	/^SOURCES = $(check_check_SOURCES) $(check_check_export_SOURCES) \\$/;"	m
+SRunner	src/check.h	/^typedef struct SRunner SRunner;$/;"	t	typeref:struct:SRunner
+SRunner	src/check_impl.h	/^struct SRunner$/;"	s
+SSIZE_T	lib/snprintf.c	438;"	d	file:
+START_TEST	doc/example/tests/check_money.2.c	/^START_TEST(test_money_create)$/;"	f
+START_TEST	doc/example/tests/check_money.3.c	/^START_TEST(test_money_create)$/;"	f
+START_TEST	doc/example/tests/check_money.6.c	/^START_TEST(test_money_create)$/;"	f
+START_TEST	doc/example/tests/check_money.6.c	/^START_TEST(test_money_create_neg)$/;"	f
+START_TEST	doc/example/tests/check_money.6.c	/^START_TEST(test_money_create_zero)$/;"	f
+START_TEST	doc/example/tests/check_money.7.c	/^START_TEST(test_money_create)$/;"	f
+START_TEST	doc/example/tests/check_money.7.c	/^START_TEST(test_money_create_neg)$/;"	f
+START_TEST	doc/example/tests/check_money.7.c	/^START_TEST(test_money_create_zero)$/;"	f
+START_TEST	doc/example/tests/check_money.c	/^START_TEST(test_money_create)$/;"	f
+START_TEST	doc/example/tests/check_money.c	/^START_TEST(test_money_create_neg)$/;"	f
+START_TEST	doc/example/tests/check_money.c	/^START_TEST(test_money_create_zero)$/;"	f
+START_TEST	src/check.h	369;"	d
+START_TEST	tests/check_check_exit.c	/^START_TEST(loop_early_exit_allowed_exit)$/;"	f
+START_TEST	tests/check_check_exit.c	/^START_TEST(loop_early_exit_normal)$/;"	f
+START_TEST	tests/check_check_exit.c	/^START_TEST(loop_early_exit_signal_segv)$/;"	f
+START_TEST	tests/check_check_exit.c	/^START_TEST(test_early_exit_normal)$/;"	f
+START_TEST	tests/check_check_exit.c	/^START_TEST(test_early_exit_with_allowed_error)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_setup)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_setup_fail)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_setup_fail_nofork)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_setup_fail_nofork_2)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_setup_pass_nofork)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_setup_sig)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_setup_two_setups_fork)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_teardown_fail)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_teardown_fail_nofork)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_teardown_sig)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_ch_teardown_two_teardowns_fork)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_fixture_fail_counts)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_print_counts)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_setup_failure_msg)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_sub_ch_setup_norm)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_sub_fail)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_sub_pass)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_sub_two_setups)$/;"	f
+START_TEST	tests/check_check_fixture.c	/^START_TEST(test_sub_two_teardowns)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_default_fork)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_env)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_env_and_set)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_inc)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_nofork)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_nofork_pid)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_nofork_sideeffects)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_set_fork)$/;"	f
+START_TEST	tests/check_check_fork.c	/^START_TEST(test_set_nofork)$/;"	f
+START_TEST	tests/check_check_limit.c	/^START_TEST(test_summary)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_double_set_log)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_double_set_tap)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_double_set_xml)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_no_set_log)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_no_set_tap)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_no_set_xml)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_set_log)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_set_log_env)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_set_tap)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_set_tap_env)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_set_xml)$/;"	f
+START_TEST	tests/check_check_log.c	/^START_TEST(test_set_xml_env)$/;"	f
+START_TEST	tests/check_check_log_internal.c	/^START_TEST(test_init_logging_subunit)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_all_ftypes)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_all_msgs)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_failure_ftypes)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_failure_lfiles)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_failure_lnos)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_failure_msgs)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_nfailures)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_ntests_run)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_check_tcnames)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_setup)$/;"	f
+START_TEST	tests/check_check_master.c	/^START_TEST(test_teardown)$/;"	f
+START_TEST	tests/check_check_msg.c	/^START_TEST(test_send)$/;"	f
+START_TEST	tests/check_check_msg.c	/^START_TEST(test_send_big)$/;"	f
+START_TEST	tests/check_check_msg.c	/^START_TEST(test_send_test_error)$/;"	f
+START_TEST	tests/check_check_msg.c	/^START_TEST(test_send_with_error_teardown)$/;"	f
+START_TEST	tests/check_check_msg.c	/^START_TEST(test_send_with_passing_teardown)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_pack_abuse)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_pack_ctx)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_pack_ctx_limit)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_pack_fail_limit)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_pack_fmsg)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_pack_len)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_pack_loc)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_pack_loc_limit)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_ppack)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_ppack_big)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_ppack_multictx)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_ppack_noctx)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_ppack_nofail)$/;"	f
+START_TEST	tests/check_check_pack.c	/^START_TEST(test_ppack_onlyctx)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_no_tcase)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_no_tcase_env)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_run_no_suite)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_run_no_suite_env)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_run_run_all)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_run_suite)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_run_suite_env)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_run_tcase)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_run_tcase_env)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_suite_no_tcase)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_suite_no_tcase_env)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_suite_tcase)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_srunner_suite_tcase_env)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_tc11)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_tc12)$/;"	f
+START_TEST	tests/check_check_selective.c	/^START_TEST(test_tc21)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_2nd_suite)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_abort)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_abort_msg)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_abort_msg_null)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_eq)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_eq_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_expr)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_ge)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_ge_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_gt)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_gt_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_le)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_le_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_lt)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_lt_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_ne)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_int_ne_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_null)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_ptr_eq)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_ptr_ne)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_str_eq)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_str_expr)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_str_ge)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_str_gt)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_str_le)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_str_lt)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_str_ne)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_eq)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_eq_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_expr)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_ge)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_ge_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_gt)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_gt_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_le)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_le_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_lt)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_lt_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_ne)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_uint_ne_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ck_assert_with_mod)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_early_exit)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_eternal_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_empty)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_if_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_if_no_msg)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_if_null_msg)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_if_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_no_msg)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_null_msg)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_unless)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_vararg_msg_1)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_vararg_msg_2)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fail_vararg_msg_3)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fork1c_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fork1c_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fork1p_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fork1p_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fork2_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fork2_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_fpe)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_ignore_exit_handlers)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_invalid_set_fork_status)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_lno)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_mark_lno)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_mark_point)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_non_signal_8)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_null)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_null_2)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_segv)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_segv_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep0_025_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep14_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep1_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep1_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep2_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep2_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep5_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep5_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep9_fail)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_sleep9_pass)$/;"	f
+START_TEST	tests/check_check_sub.c	/^START_TEST(test_srunner)$/;"	f
+START_TEST	tests/check_list.c	/^START_TEST(test_add_a_bunch)$/;"	f
+START_TEST	tests/check_list.c	/^START_TEST(test_add_end)$/;"	f
+START_TEST	tests/check_list.c	/^START_TEST(test_add_end_and_next)$/;"	f
+START_TEST	tests/check_list.c	/^START_TEST(test_add_front)$/;"	f
+START_TEST	tests/check_list.c	/^START_TEST(test_add_front_and_next)$/;"	f
+START_TEST	tests/check_list.c	/^START_TEST(test_create)$/;"	f
+START_TEST	tests/check_list.c	/^START_TEST(test_free)$/;"	f
+START_TEST	tests/check_list.c	/^START_TEST(test_list_abuse)$/;"	f
+START_TEST	tests/check_nofork.c	/^START_TEST(test_check_fork)$/;"	f
+START_TEST	tests/check_nofork.c	/^START_TEST(test_nofork_exit)$/;"	f
+START_TEST	tests/check_nofork_teardown.c	/^START_TEST( will_fail )$/;"	f
+START_TEST	tests/check_stress.c	/^START_TEST(test_fail)$/;"	f
+START_TEST	tests/check_stress.c	/^START_TEST(test_pass)$/;"	f
+START_TEST	tests/check_thread_stress.c	/^START_TEST (test_stress_forks)$/;"	f
+START_TEST	tests/check_thread_stress.c	/^START_TEST (test_stress_threads)$/;"	f
+START_TEST	tests/ex_output.c	/^START_TEST(test_abort)$/;"	f
+START_TEST	tests/ex_output.c	/^START_TEST(test_exit)$/;"	f
+START_TEST	tests/ex_output.c	/^START_TEST(test_fail)$/;"	f
+START_TEST	tests/ex_output.c	/^START_TEST(test_loop)$/;"	f
+START_TEST	tests/ex_output.c	/^START_TEST(test_pass)$/;"	f
+START_TEST	tests/ex_output.c	/^START_TEST(test_pass2)$/;"	f
+START_TEST	tests/ex_output.c	/^START_TEST(test_xml_esc_fail_msg)$/;"	f
+STDC_HEADERS	config.h	268;"	d
+STDOUT_OVERRIDE_LOG_FILE_NAME	src/check_log.c	41;"	d	file:
+STRIP	Makefile	/^STRIP = strip$/;"	m
+STRIP	checkmk/Makefile	/^STRIP = strip$/;"	m
+STRIP	doc/Makefile	/^STRIP = strip$/;"	m
+STRIP	lib/Makefile	/^STRIP = strip$/;"	m
+STRIP	src/Makefile	/^STRIP = strip$/;"	m
+STRIP	tests/Makefile	/^STRIP = strip$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = lib src doc . checkmk tests$/;"	m
+Suite	src/check.h	/^typedef struct Suite Suite;$/;"	t	typeref:struct:Suite
+Suite	src/check_impl.h	/^struct Suite$/;"	s
+TCase	src/check.h	/^typedef struct TCase TCase;$/;"	t	typeref:struct:TCase
+TCase	src/check_impl.h	/^struct TCase$/;"	s
+TEST	lib/snprintf.c	2071;"	d	file:
+TEST	lib/snprintf.c	2073;"	d	file:
+TESTS	checkmk/Makefile	/^TESTS = test\/check_checkmk$/;"	m
+TESTS	tests/Makefile	/^TESTS = check_check_export$(EXEEXT) check_check$(EXEEXT) \\$/;"	m
+TEST_NILS	lib/snprintf.c	2065;"	d	file:
+TEX	Makefile	/^TEX = false$/;"	m
+TEX	checkmk/Makefile	/^TEX = false$/;"	m
+TEX	doc/Makefile	/^TEX = false$/;"	m
+TEX	lib/Makefile	/^TEX = false$/;"	m
+TEX	src/Makefile	/^TEX = false$/;"	m
+TEX	tests/Makefile	/^TEX = false$/;"	m
+TEXI2DVI	doc/Makefile	/^TEXI2DVI = texi2dvi$/;"	m
+TEXI2PDF	doc/Makefile	/^TEXI2PDF = $(TEXI2DVI) --pdf --batch$/;"	m
+TEXINFOS	doc/Makefile	/^TEXINFOS = check.texi$/;"	m
+TEXINFO_TEX	doc/Makefile	/^TEXINFO_TEX = $(top_srcdir)\/build-aux\/texinfo.tex$/;"	m
+TF	src/check_impl.h	/^typedef struct TF$/;"	s
+TF	src/check_impl.h	/^} TF;$/;"	t	typeref:struct:TF
+TFun	src/check.h	/^typedef void (*TFun) (int);$/;"	t
+TIMEOUT_TESTS_ENABLED	tests/check_check.h	5;"	d
+TIME_WITH_SYS_TIME	config.h	277;"	d
+TestResult	src/check.h	/^typedef struct TestResult TestResult;$/;"	t	typeref:struct:TestResult
+TestResult	src/check_impl.h	/^struct TestResult$/;"	s
+TestStats	src/check_impl.h	/^typedef struct TestStats$/;"	s
+TestStats	src/check_impl.h	/^} TestStats;$/;"	t	typeref:struct:TestStats
+UINTMAX_MAX	lib/snprintf.c	368;"	d	file:
+UINTMAX_MAX	lib/snprintf.c	373;"	d	file:
+UINTMAX_MAX	lib/snprintf.c	375;"	d	file:
+UINTMAX_T	lib/snprintf.c	363;"	d	file:
+UINTMAX_T	lib/snprintf.c	366;"	d	file:
+UINTMAX_T	lib/snprintf.c	371;"	d	file:
+UINTPTR_T	lib/snprintf.c	408;"	d	file:
+UINTPTR_T	lib/snprintf.c	410;"	d	file:
+ULLONG	lib/snprintf.c	346;"	d	file:
+ULLONG	lib/snprintf.c	349;"	d	file:
+ULLONG	lib/snprintf.c	354;"	d	file:
+ULLONG_MAX	lib/snprintf.c	351;"	d	file:
+ULLONG_MAX	lib/snprintf.c	356;"	d	file:
+ULLONG_MAX	lib/snprintf.c	358;"	d	file:
+ULONG_MAX	lib/snprintf.c	340;"	d	file:
+ULONG_MAX	lib/snprintf.c	342;"	d	file:
+UPTRDIFF_T	lib/snprintf.c	429;"	d	file:
+US_PER_SEC	src/check_impl.h	29;"	d
+VA_COPY	lib/snprintf.c	302;"	d	file:
+VA_COPY	lib/snprintf.c	308;"	d	file:
+VA_COPY	lib/snprintf.c	311;"	d	file:
+VA_COPY	lib/snprintf.c	314;"	d	file:
+VA_END_COPY	lib/snprintf.c	305;"	d	file:
+VA_END_COPY	lib/snprintf.c	309;"	d	file:
+VA_END_COPY	lib/snprintf.c	312;"	d	file:
+VA_END_COPY	lib/snprintf.c	315;"	d	file:
+VA_SHIFT	lib/snprintf.c	284;"	d	file:
+VA_SHIFT	lib/snprintf.c	289;"	d	file:
+VA_SHIFT	lib/snprintf.c	293;"	d	file:
+VA_START	lib/snprintf.c	281;"	d	file:
+VA_START	lib/snprintf.c	288;"	d	file:
+VA_START	lib/snprintf.c	292;"	d	file:
+VERSION	Makefile	/^VERSION = 0.10.0$/;"	m
+VERSION	checkmk/Makefile	/^VERSION = 0.10.0$/;"	m
+VERSION	config.h	305;"	d
+VERSION	doc/Makefile	/^VERSION = 0.10.0$/;"	m
+VERSION	lib/Makefile	/^VERSION = 0.10.0$/;"	m
+VERSION	src/Makefile	/^VERSION = 0.10.0$/;"	m
+VERSION	tests/Makefile	/^VERSION = 0.10.0$/;"	m
+WEXITSTATUS_MASK	src/check.c	45;"	d	file:
+_ALL_SOURCE	config.h	284;"	d
+_CHECK_CHECK_STDINT_H	check_stdint.h	2;"	d
+_GENERATED_STDINT_H	check_stdint.h	4;"	d
+_GNU_SOURCE	config.h	288;"	d
+_POSIX_PTHREAD_SEMANTICS	config.h	292;"	d
+_STDINT_HAVE_STDINT_H	check_stdint.h	6;"	d
+_TANDEM_SOURCE	config.h	296;"	d
+__EXTENSIONS__	config.h	300;"	d
+__c99	lib/snprintf.c	182;"	d	file:
+_ck_assert_failed	src/check.c	/^void _ck_assert_failed(const char *file, int line, const char *expr, ...)$/;"	f
+_ck_assert_int	src/check.h	477;"	d
+_ck_assert_ptr	src/check.h	736;"	d
+_ck_assert_str	src/check.h	649;"	d
+_ck_assert_uint	src/check.h	562;"	d
+_fstat	src/check.c	/^static enum fork_status _fstat = CK_FORK;$/;"	v	typeref:enum:fork_status	file:
+_mark_point	src/check.c	/^void _mark_point(const char *file, int line)$/;"	f
+_tcase_add_test	src/check.c	/^void _tcase_add_test(TCase * tc, TFun fn, const char *name, int _signal,$/;"	f
+abs_builddir	Makefile	/^abs_builddir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_builddir	checkmk/Makefile	/^abs_builddir = \/root\/05_day\/check-0.10.0\/checkmk$/;"	m
+abs_builddir	doc/Makefile	/^abs_builddir = \/root\/05_day\/check-0.10.0\/doc$/;"	m
+abs_builddir	lib/Makefile	/^abs_builddir = \/root\/05_day\/check-0.10.0\/lib$/;"	m
+abs_builddir	src/Makefile	/^abs_builddir = \/root\/05_day\/check-0.10.0\/src$/;"	m
+abs_builddir	tests/Makefile	/^abs_builddir = \/root\/05_day\/check-0.10.0\/tests$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_srcdir	checkmk/Makefile	/^abs_srcdir = \/root\/05_day\/check-0.10.0\/checkmk$/;"	m
+abs_srcdir	doc/Makefile	/^abs_srcdir = \/root\/05_day\/check-0.10.0\/doc$/;"	m
+abs_srcdir	lib/Makefile	/^abs_srcdir = \/root\/05_day\/check-0.10.0\/lib$/;"	m
+abs_srcdir	src/Makefile	/^abs_srcdir = \/root\/05_day\/check-0.10.0\/src$/;"	m
+abs_srcdir	tests/Makefile	/^abs_srcdir = \/root\/05_day\/check-0.10.0\/tests$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_builddir	checkmk/Makefile	/^abs_top_builddir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_builddir	doc/Makefile	/^abs_top_builddir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_builddir	lib/Makefile	/^abs_top_builddir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_builddir	src/Makefile	/^abs_top_builddir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_builddir	tests/Makefile	/^abs_top_builddir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_srcdir	checkmk/Makefile	/^abs_top_srcdir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_srcdir	doc/Makefile	/^abs_top_srcdir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_srcdir	lib/Makefile	/^abs_top_srcdir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_srcdir	src/Makefile	/^abs_top_srcdir = \/root\/05_day\/check-0.10.0$/;"	m
+abs_top_srcdir	tests/Makefile	/^abs_top_srcdir = \/root\/05_day\/check-0.10.0$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	checkmk/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	doc/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	lib/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	src/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_AR	tests/Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	checkmk/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	doc/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	lib/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	tests/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	checkmk/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	doc/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	lib/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	src/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	tests/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fn_c_check_decl	configure	/^ac_fn_c_check_decl ()$/;"	f
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_check_member	configure	/^ac_fn_c_check_member ()$/;"	f
+ac_fn_c_check_type	configure	/^ac_fn_c_check_type ()$/;"	f
+ac_fn_c_compute_int	configure	/^ac_fn_c_compute_int ()$/;"	f
+ac_fn_c_find_uintX_t	configure	/^ac_fn_c_find_uintX_t ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+acx_pthread_config	Makefile	/^acx_pthread_config = $/;"	m
+acx_pthread_config	checkmk/Makefile	/^acx_pthread_config = $/;"	m
+acx_pthread_config	doc/Makefile	/^acx_pthread_config = $/;"	m
+acx_pthread_config	lib/Makefile	/^acx_pthread_config = $/;"	m
+acx_pthread_config	src/Makefile	/^acx_pthread_config = $/;"	m
+acx_pthread_config	tests/Makefile	/^acx_pthread_config = $/;"	m
+alarm	lib/alarm.c	/^unsigned int alarm(unsigned int seconds CK_ATTRIBUTE_UNUSED)$/;"	f
+alarm_received	src/check_run.c	/^static int alarm_received;$/;"	v	file:
+allowed_exit_value	src/check_impl.h	/^    signed char allowed_exit_value;$/;"	m	struct:TF
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__DEPENDENCIES_1	src/Makefile	/^am__DEPENDENCIES_1 =$/;"	m
+am__TEXINFO_TEX_DIR	doc/Makefile	/^am__TEXINFO_TEX_DIR = $(top_srcdir)\/build-aux$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/acx_pthread.m4 \\$/;"	m
+am__aclocal_m4_deps	checkmk/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/acx_pthread.m4 \\$/;"	m
+am__aclocal_m4_deps	doc/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/acx_pthread.m4 \\$/;"	m
+am__aclocal_m4_deps	lib/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/acx_pthread.m4 \\$/;"	m
+am__aclocal_m4_deps	src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/acx_pthread.m4 \\$/;"	m
+am__aclocal_m4_deps	tests/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/acx_pthread.m4 \\$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__base_list	checkmk/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	doc/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	src/Makefile	/^am__base_list = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	checkmk/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	doc/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	lib/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	tests/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	checkmk/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	doc/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	lib/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	tests/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	lib/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	tests/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__include	checkmk/Makefile	/^am__include = include$/;"	m
+am__include	doc/Makefile	/^am__include = include$/;"	m
+am__include	lib/Makefile	/^am__include = include$/;"	m
+am__include	src/Makefile	/^am__include = include$/;"	m
+am__include	tests/Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__install_max	checkmk/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	doc/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	src/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(docdir)" "$(DESTDIR)$(m4datadir)" \\$/;"	m
+am__installdirs	checkmk/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(man1dir)"$/;"	m
+am__installdirs	doc/Makefile	/^am__installdirs = "$(DESTDIR)$(infodir)" "$(DESTDIR)$(exampledir)" \\$/;"	m
+am__installdirs	src/Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(includedir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	checkmk/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	doc/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	lib/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	src/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	tests/Makefile	/^am__leading_dot = .$/;"	m
+am__mv	lib/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	src/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	tests/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	checkmk/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	doc/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	src/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	checkmk/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	doc/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	src/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	checkmk/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	doc/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	src/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__objects_1	src/Makefile	/^am__objects_1 = check.lo check_error.lo check_list.lo check_log.lo \\$/;"	m
+am__objects_2	src/Makefile	/^am__objects_2 =$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	checkmk/Makefile	/^am__quote = $/;"	m
+am__quote	doc/Makefile	/^am__quote = $/;"	m
+am__quote	lib/Makefile	/^am__quote = $/;"	m
+am__quote	src/Makefile	/^am__quote = $/;"	m
+am__quote	tests/Makefile	/^am__quote = $/;"	m
+am__relativize	Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	checkmk/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	doc/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	src/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	checkmk/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	doc/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	lib/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	src/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	tests/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tty_colors	checkmk/Makefile	/^am__tty_colors = \\$/;"	m
+am__tty_colors	tests/Makefile	/^am__tty_colors = \\$/;"	m
+am__uninstall_files_from_dir	Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	checkmk/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	doc/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	src/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	checkmk/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	doc/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	lib/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	src/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	tests/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	lib/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_	src/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_	tests/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	lib/Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m
+am__v_CCLD_0	src/Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m
+am__v_CCLD_0	tests/Makefile	/^am__v_CCLD_0 = @echo "  CCLD  " $@;$/;"	m
+am__v_CC_	lib/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_	src/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_	tests/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	lib/Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m
+am__v_CC_0	src/Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m
+am__v_CC_0	tests/Makefile	/^am__v_CC_0 = @echo "  CC    " $@;$/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	checkmk/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	doc/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	lib/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	src/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	tests/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_GEN_0	checkmk/Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_GEN_0	doc/Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_GEN_0	lib/Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_GEN_0	src/Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_GEN_0	tests/Makefile	/^am__v_GEN_0 = @echo "  GEN   " $@;$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	checkmk/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	doc/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	lib/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	src/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	tests/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	checkmk/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	doc/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	lib/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	src/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	tests/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_lt_	lib/Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_	src/Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_	tests/Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	lib/Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_0	src/Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_0	tests/Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	checkmk/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	doc/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	src/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	checkmk/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	doc/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	src/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_check_check_OBJECTS	tests/Makefile	/^am_check_check_OBJECTS = check_check-check_list.$(OBJEXT) \\$/;"	m
+am_check_check_export_OBJECTS	tests/Makefile	/^am_check_check_export_OBJECTS =  \\$/;"	m
+am_check_mem_leaks_OBJECTS	tests/Makefile	/^am_check_mem_leaks_OBJECTS =  \\$/;"	m
+am_check_nofork_OBJECTS	tests/Makefile	/^am_check_nofork_OBJECTS = check_nofork.$(OBJEXT)$/;"	m
+am_check_nofork_teardown_OBJECTS	tests/Makefile	/^am_check_nofork_teardown_OBJECTS = check_nofork_teardown.$(OBJEXT)$/;"	m
+am_check_stress_OBJECTS	tests/Makefile	/^am_check_stress_OBJECTS = check_stress.$(OBJEXT)$/;"	m
+am_check_thread_stress_OBJECTS	tests/Makefile	/^am_check_thread_stress_OBJECTS =  \\$/;"	m
+am_ex_output_OBJECTS	tests/Makefile	/^am_ex_output_OBJECTS = ex_output.$(OBJEXT)$/;"	m
+am_libcheck_la_OBJECTS	src/Makefile	/^am_libcheck_la_OBJECTS = $(am__objects_1) $(am__objects_2)$/;"	m
+am_libcheckinternal_la_OBJECTS	src/Makefile	/^am_libcheckinternal_la_OBJECTS = $(am__objects_1) $(am__objects_2)$/;"	m
+am_libcompat_la_OBJECTS	lib/Makefile	/^am_libcompat_la_OBJECTS = libcompat.lo$/;"	m
+amount	doc/example/src/money.4.c	/^    int amount;$/;"	m	struct:Money	file:
+amount	doc/example/src/money.5.c	/^    int amount;$/;"	m	struct:Money	file:
+amount	doc/example/src/money.6.c	/^    int amount;$/;"	m	struct:Money	file:
+amount	doc/example/src/money.c	/^    int amount;$/;"	m	struct:Money	file:
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+asprintf	lib/snprintf.c	211;"	d	file:
+asprintf	lib/snprintf.c	274;"	d	file:
+bin_SCRIPTS	checkmk/Makefile	/^bin_SCRIPTS = checkmk$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	checkmk/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	doc/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	lib/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	tests/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	checkmk/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	doc/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	lib/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	src/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	tests/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	checkmk/Makefile	/^build_alias = $/;"	m
+build_alias	doc/Makefile	/^build_alias = $/;"	m
+build_alias	lib/Makefile	/^build_alias = $/;"	m
+build_alias	src/Makefile	/^build_alias = $/;"	m
+build_alias	tests/Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_cpu	checkmk/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	doc/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	lib/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	src/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	tests/Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_os	checkmk/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	doc/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	lib/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	src/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	tests/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	checkmk/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	doc/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	lib/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	src/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	tests/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+build_vendor	checkmk/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	doc/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	lib/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	src/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	tests/Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builddir	checkmk/Makefile	/^builddir = .$/;"	m
+builddir	doc/Makefile	/^builddir = .$/;"	m
+builddir	lib/Makefile	/^builddir = .$/;"	m
+builddir	src/Makefile	/^builddir = .$/;"	m
+builddir	tests/Makefile	/^builddir = .$/;"	m
+cast	lib/snprintf.c	/^cast(LDOUBLE value)$/;"	f	file:
+ch_sflst	src/check_impl.h	/^    List *ch_sflst;$/;"	m	struct:TCase
+ch_tflst	src/check_impl.h	/^    List *ch_tflst;$/;"	m	struct:TCase
+check_TEXINFOS	doc/Makefile	/^check_TEXINFOS = fdl.texi$/;"	m
+check_check_DEPENDENCIES	tests/Makefile	/^check_check_DEPENDENCIES = $(top_builddir)\/src\/libcheckinternal.la \\$/;"	m
+check_check_LDADD	tests/Makefile	/^check_check_LDADD = $(top_builddir)\/src\/libcheckinternal.la $(top_builddir)\/lib\/libcompat.la$/;"	m
+check_check_LINK	tests/Makefile	/^check_check_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+check_check_OBJECTS	tests/Makefile	/^check_check_OBJECTS = $(am_check_check_OBJECTS)$/;"	m
+check_check_SOURCES	tests/Makefile	/^check_check_SOURCES = \\$/;"	m
+check_check_export_DEPENDENCIES	tests/Makefile	/^check_check_export_DEPENDENCIES = $(top_builddir)\/src\/libcheck.la \\$/;"	m
+check_check_export_LDADD	tests/Makefile	/^check_check_export_LDADD = $(top_builddir)\/src\/libcheck.la $(top_builddir)\/lib\/libcompat.la$/;"	m
+check_check_export_LINK	tests/Makefile	/^check_check_export_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+check_check_export_OBJECTS	tests/Makefile	/^check_check_export_OBJECTS = $(am_check_check_export_OBJECTS)$/;"	m
+check_check_export_SOURCES	tests/Makefile	/^check_check_export_SOURCES = \\$/;"	m
+check_dir	checkmk/test/check_checkmk	/^check_dir() {$/;"	f
+check_fork	src/check_run.c	/^pid_t check_fork(void)$/;"	f
+check_get_clockid	src/check.c	/^clockid_t check_get_clockid()$/;"	f
+check_list_add_end	src/check_list.c	/^void check_list_add_end(List * lp, void *val)$/;"	f
+check_list_add_front	src/check_list.c	/^void check_list_add_front(List * lp, void *val)$/;"	f
+check_list_advance	src/check_list.c	/^void check_list_advance(List * lp)$/;"	f
+check_list_apply	src/check_list.c	/^void check_list_apply(List * lp, void (*fp) (void *))$/;"	f
+check_list_at_end	src/check_list.c	/^int check_list_at_end(List * lp)$/;"	f
+check_list_create	src/check_list.c	/^List *check_list_create(void)$/;"	f
+check_list_free	src/check_list.c	/^void check_list_free(List * lp)$/;"	f
+check_list_front	src/check_list.c	/^void check_list_front(List * lp)$/;"	f
+check_list_val	src/check_list.c	/^void *check_list_val(List * lp)$/;"	f
+check_major_version	src/check.c	/^int check_major_version = CHECK_MAJOR_VERSION;$/;"	v
+check_mem_leaks_CFLAGS	tests/Makefile	/^check_mem_leaks_CFLAGS = -DTIMEOUT_TESTS_ENABLED=0 -DMEMORY_LEAKING_TESTS_ENABLED=0$/;"	m
+check_mem_leaks_DEPENDENCIES	tests/Makefile	/^check_mem_leaks_DEPENDENCIES = $(top_builddir)\/src\/libcheck.la \\$/;"	m
+check_mem_leaks_LDADD	tests/Makefile	/^check_mem_leaks_LDADD = $(top_builddir)\/src\/libcheck.la $(top_builddir)\/lib\/libcompat.la$/;"	m
+check_mem_leaks_LINK	tests/Makefile	/^check_mem_leaks_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+check_mem_leaks_OBJECTS	tests/Makefile	/^check_mem_leaks_OBJECTS = $(am_check_mem_leaks_OBJECTS)$/;"	m
+check_mem_leaks_SOURCES	tests/Makefile	/^check_mem_leaks_SOURCES = \\$/;"	m
+check_micro_version	src/check.c	/^int check_micro_version = CHECK_MICRO_VERSION;$/;"	v
+check_minor_version	src/check.c	/^int check_minor_version = CHECK_MINOR_VERSION;$/;"	v
+check_nofork_DEPENDENCIES	tests/Makefile	/^check_nofork_DEPENDENCIES = $(top_builddir)\/src\/libcheck.la \\$/;"	m
+check_nofork_LDADD	tests/Makefile	/^check_nofork_LDADD = $(top_builddir)\/src\/libcheck.la $(top_builddir)\/lib\/libcompat.la$/;"	m
+check_nofork_OBJECTS	tests/Makefile	/^check_nofork_OBJECTS = $(am_check_nofork_OBJECTS)$/;"	m
+check_nofork_SOURCES	tests/Makefile	/^check_nofork_SOURCES = check_nofork.c$/;"	m
+check_nofork_teardown_DEPENDENCIES	tests/Makefile	/^check_nofork_teardown_DEPENDENCIES = $(top_builddir)\/src\/libcheck.la \\$/;"	m
+check_nofork_teardown_LDADD	tests/Makefile	/^check_nofork_teardown_LDADD = $(top_builddir)\/src\/libcheck.la $(top_builddir)\/lib\/libcompat.la$/;"	m
+check_nofork_teardown_OBJECTS	tests/Makefile	/^check_nofork_teardown_OBJECTS = $(am_check_nofork_teardown_OBJECTS)$/;"	m
+check_nofork_teardown_SOURCES	tests/Makefile	/^check_nofork_teardown_SOURCES = check_nofork_teardown.c$/;"	m
+check_stress_DEPENDENCIES	tests/Makefile	/^check_stress_DEPENDENCIES = $(top_builddir)\/src\/libcheck.la \\$/;"	m
+check_stress_LDADD	tests/Makefile	/^check_stress_LDADD = $(top_builddir)\/src\/libcheck.la $(top_builddir)\/lib\/libcompat.la$/;"	m
+check_stress_OBJECTS	tests/Makefile	/^check_stress_OBJECTS = $(am_check_stress_OBJECTS)$/;"	m
+check_stress_SOURCES	tests/Makefile	/^check_stress_SOURCES = check_stress.c$/;"	m
+check_thread_stress_CFLAGS	tests/Makefile	/^check_thread_stress_CFLAGS = -pthread$/;"	m
+check_thread_stress_DEPENDENCIES	tests/Makefile	/^check_thread_stress_DEPENDENCIES = $(top_builddir)\/src\/libcheck.la \\$/;"	m
+check_thread_stress_LDADD	tests/Makefile	/^check_thread_stress_LDADD = $(top_builddir)\/src\/libcheck.la $(top_builddir)\/lib\/libcompat.la $/;"	m
+check_thread_stress_LINK	tests/Makefile	/^check_thread_stress_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+check_thread_stress_OBJECTS	tests/Makefile	/^check_thread_stress_OBJECTS = $(am_check_thread_stress_OBJECTS)$/;"	m
+check_thread_stress_SOURCES	tests/Makefile	/^check_thread_stress_SOURCES = check_thread_stress.c$/;"	m
+check_type	src/check_pack.c	/^static void check_type(int type, const char *file, int line)$/;"	f	file:
+check_waitpid_and_exit	src/check_run.c	/^void check_waitpid_and_exit(pid_t pid CK_ATTRIBUTE_UNUSED)$/;"	f
+ck_abort	src/check.h	463;"	d
+ck_abort_msg	src/check.h	473;"	d
+ck_assert	src/check.h	436;"	d
+ck_assert_int_eq	src/check.h	495;"	d
+ck_assert_int_ge	src/check.h	560;"	d
+ck_assert_int_gt	src/check.h	547;"	d
+ck_assert_int_le	src/check.h	534;"	d
+ck_assert_int_lt	src/check.h	521;"	d
+ck_assert_int_ne	src/check.h	508;"	d
+ck_assert_msg	src/check.h	451;"	d
+ck_assert_ptr_eq	src/check.h	755;"	d
+ck_assert_ptr_ne	src/check.h	767;"	d
+ck_assert_str_eq	src/check.h	667;"	d
+ck_assert_str_ge	src/check.h	732;"	d
+ck_assert_str_gt	src/check.h	719;"	d
+ck_assert_str_le	src/check.h	706;"	d
+ck_assert_str_lt	src/check.h	693;"	d
+ck_assert_str_ne	src/check.h	680;"	d
+ck_assert_uint_eq	src/check.h	579;"	d
+ck_assert_uint_ge	src/check.h	644;"	d
+ck_assert_uint_gt	src/check.h	631;"	d
+ck_assert_uint_le	src/check.h	618;"	d
+ck_assert_uint_lt	src/check.h	605;"	d
+ck_assert_uint_ne	src/check.h	592;"	d
+ck_do_nothing	lib/libcompat.c	/^void ck_do_nothing(void)$/;"	f
+ck_msg_type	src/check_pack.h	/^enum ck_msg_type$/;"	g
+ck_mutex_lock	src/check_pack.c	/^static pthread_mutex_t ck_mutex_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+ck_result_ctx	src/check.h	/^enum ck_result_ctx$/;"	g
+ck_strdup_printf	src/check_str.c	/^char *ck_strdup_printf(const char *fmt, ...)$/;"	f
+ck_uint32	src/check_pack.c	/^typedef uint32_t ck_uint32;$/;"	t	file:
+cl_event	src/check_impl.h	/^enum cl_event$/;"	g
+cleanup	tests/check_check_master.c	/^void cleanup (void)$/;"	f
+clock_gettime	lib/clock_gettime.c	/^int clock_gettime(clockid_t clk_id CK_ATTRIBUTE_UNUSED, struct timespec *ts)$/;"	f
+close	src/check_impl.h	/^    int close;$/;"	m	struct:Log
+construct_test_result	src/check_msg.c	/^static TestResult *construct_test_result(RcvMsg * rmsg, int waserror)$/;"	f	file:
+convert	lib/snprintf.c	/^convert(UINTMAX_T value, char *buf, size_t size, int base, int caps)$/;"	f	file:
+counter	tests/check_check_fork.c	/^static int counter;$/;"	v	file:
+ctx	src/check_impl.h	/^    enum ck_result_ctx ctx;     \/* When the result occurred *\/$/;"	m	struct:TestResult	typeref:enum:TestResult::ck_result_ctx
+ctx	src/check_pack.h	/^    enum ck_result_ctx ctx;$/;"	m	struct:CtxMsg	typeref:enum:CtxMsg::ck_result_ctx
+ctx_msg	src/check_pack.h	/^    CtxMsg ctx_msg;$/;"	m	union:__anon1
+cur_fork_status	src/check.c	/^enum fork_status cur_fork_status(void)$/;"	f
+currency	doc/example/src/money.5.c	/^    char *currency;$/;"	m	struct:Money	file:
+currency	doc/example/src/money.6.c	/^    char *currency;$/;"	m	struct:Money	file:
+currency	doc/example/src/money.c	/^    char *currency;$/;"	m	struct:Money	file:
+current	src/check_list.c	/^    int current;                \/* pointer to the current node *\/$/;"	m	struct:List	file:
+data	src/check_list.c	/^    void **data;$/;"	m	struct:List	file:
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	checkmk/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	doc/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	lib/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	tests/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	checkmk/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	doc/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	lib/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	tests/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	lib/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/build-aux\/depcomp$/;"	m
+depcomp	src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/build-aux\/depcomp$/;"	m
+depcomp	tests/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/build-aux\/depcomp$/;"	m
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+doc_DATA	Makefile	/^doc_DATA = SVNChangeLog ChangeLog ChangeLogOld NEWS README COPYING.LESSER$/;"	m
+docdir	Makefile	/^docdir = $(datadir)\/doc\/$(PACKAGE)$/;"	m
+docdir	checkmk/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	doc/Makefile	/^docdir = $(datadir)\/doc\/$(PACKAGE)$/;"	m
+docdir	lib/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	tests/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+duplicate_check	checkmk/checkmk	/^function duplicate_check()$/;"	f
+duration	src/check_impl.h	/^    int duration;               \/* duration of this test in microseconds *\/$/;"	m	struct:TestResult
+duration	src/check_pack.h	/^    int duration;$/;"	m	struct:DurationMsg
+duration	src/check_pack.h	/^    int duration;$/;"	m	struct:RcvMsg
+duration_msg	src/check_pack.h	/^    DurationMsg duration_msg;$/;"	m	union:__anon1
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	checkmk/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	doc/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	lib/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	src/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	tests/Makefile	/^dvidir = ${docdir}$/;"	m
+eg_root	doc/Makefile	/^eg_root = $(top_srcdir)\/doc\/example$/;"	m
+eg_src	doc/Makefile	/^eg_src = $(eg_root)\/src$/;"	m
+eg_tests	doc/Makefile	/^eg_tests = $(eg_root)\/tests$/;"	m
+emalloc	src/check_error.c	/^void *emalloc(size_t n)$/;"	f
+empty_checked_teardown	tests/check_nofork_teardown.c	/^static void empty_checked_teardown( void )$/;"	f	file:
+eprintf	src/check_error.c	/^void eprintf(const char *fmt, const char *file, int line, ...)$/;"	f
+erealloc	src/check_error.c	/^void *erealloc(void *ptr, size_t n)$/;"	f
+errm	tests/check_check_fixture.c	/^static char errm[200];$/;"	v	file:
+errm	tests/check_check_pack.c	/^static char errm[512];$/;"	v	file:
+error	build-aux/mdate-sh	/^error ()$/;"	f
+error	checkmk/checkmk	/^function error(err)$/;"	f
+error_jmp_buffer	src/check_error.c	/^jmp_buf error_jmp_buffer;$/;"	v
+error_with_line	checkmk/checkmk	/^function error_with_line(err)$/;"	f
+escape_percent	tests/check_check_master.c	/^char * escape_percent(const char *original, size_t original_size)$/;"	f
+ex_output_DEPENDENCIES	tests/Makefile	/^ex_output_DEPENDENCIES = $(top_builddir)\/src\/libcheck.la \\$/;"	m
+ex_output_LDADD	tests/Makefile	/^ex_output_LDADD = $(top_builddir)\/src\/libcheck.la $(top_builddir)\/lib\/libcompat.la$/;"	m
+ex_output_OBJECTS	tests/Makefile	/^ex_output_OBJECTS = $(am_ex_output_OBJECTS)$/;"	m
+ex_output_SOURCES	tests/Makefile	/^ex_output_SOURCES = ex_output.c$/;"	m
+example_DATA	doc/Makefile	/^example_DATA = $(example_docs)$/;"	m
+example_cmake	doc/Makefile	/^example_cmake = example\/CMakeLists.txt \\$/;"	m
+example_docs	doc/Makefile	/^example_docs = example\/Makefile.am \\$/;"	m
+example_src_docs	doc/Makefile	/^example_src_docs = example\/src\/Makefile.am \\$/;"	m
+example_tests_docs	doc/Makefile	/^example_tests_docs = example\/tests\/Makefile.am \\$/;"	m
+exampledir	doc/Makefile	/^exampledir = $(docdir)\/example$/;"	m
+examplesrc_DATA	doc/Makefile	/^examplesrc_DATA = $(example_src_docs)$/;"	m
+examplesrcdir	doc/Makefile	/^examplesrcdir = $(docdir)\/example\/src$/;"	m
+exampletests_DATA	doc/Makefile	/^exampletests_DATA = $(example_tests_docs)$/;"	m
+exampletestsdir	doc/Makefile	/^exampletestsdir = $(docdir)\/example\/tests$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	checkmk/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	doc/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	lib/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	tests/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exit_handler	tests/check_check_sub.c	/^void exit_handler ()$/;"	f
+exit_msg	src/check_run.c	/^static char *exit_msg(int exitval)$/;"	f	file:
+fail	src/check.h	408;"	d
+fail_dir	checkmk/test/check_checkmk	/^fail_dir() {$/;"	f
+fail_if	src/check.h	398;"	d
+fail_msg	src/check_pack.h	/^    FailMsg fail_msg;$/;"	m	union:__anon1
+fail_unless	src/check.h	386;"	d
+failctx	src/check_pack.h	/^    enum ck_result_ctx failctx;$/;"	m	struct:RcvMsg	typeref:enum:RcvMsg::ck_result_ctx
+failure_type	tests/check_check_master.c	/^  int failure_type;$/;"	m	struct:__anon3	file:
+file	src/check_impl.h	/^    char *file;                 \/* File where the test occured *\/$/;"	m	struct:TestResult
+file	src/check_pack.h	/^    char *file;$/;"	m	struct:LocMsg
+finish_test	checkmk/checkmk	/^function finish_test()$/;"	f
+five_dollars	doc/example/tests/check_money.7.c	/^Money *five_dollars;$/;"	v
+five_dollars	doc/example/tests/check_money.c	/^Money *five_dollars;$/;"	v
+fixture_create	src/check.c	/^static Fixture *fixture_create(SFun fun, int ischecked)$/;"	f	file:
+fixture_file	src/check_pack.h	/^    char *fixture_file;$/;"	m	struct:RcvMsg
+fixture_line	src/check_pack.h	/^    int fixture_line;$/;"	m	struct:RcvMsg
+fixture_sr	tests/check_check_fixture.c	/^static SRunner *fixture_sr;$/;"	v	file:
+fixture_sub_setup	tests/check_check_fixture.c	/^static void fixture_sub_setup (void)$/;"	f	file:
+fmtflt	lib/snprintf.c	/^fmtflt(char *str, size_t *len, size_t size, LDOUBLE fvalue, int width,$/;"	f	file:
+fmtint	lib/snprintf.c	/^fmtint(char *str, size_t *len, size_t size, INTMAX_T value, int base, int width,$/;"	f	file:
+fmtstr	lib/snprintf.c	/^fmtstr(char *str, size_t *len, size_t size, const char *value, int width,$/;"	f	file:
+fn	src/check_impl.h	/^    TFun fn;$/;"	m	struct:TF
+fork_dummy_sr	tests/check_check_fork.c	/^static SRunner *fork_dummy_sr;$/;"	v	file:
+fork_setup	tests/check_check_fork.c	/^void fork_setup (void)$/;"	f
+fork_sr	tests/check_check_fork.c	/^static SRunner *fork_sr;$/;"	v	file:
+fork_status	src/check.h	/^enum fork_status$/;"	g
+fork_sub_setup	tests/check_check_fork.c	/^static void fork_sub_setup (void)$/;"	f	file:
+fork_teardown	tests/check_check_fork.c	/^void fork_teardown (void)$/;"	f
+fprint_xml_esc	src/check_print.c	/^void fprint_xml_esc(FILE * file, const char *str)$/;"	f
+fstat	src/check_impl.h	/^    enum fork_status fstat;     \/* controls if suites are forked or not$/;"	m	struct:SRunner	typeref:enum:SRunner::fork_status
+fun	src/check_impl.h	/^    SFun fun;$/;"	m	struct:Fixture
+func_append	build-aux/ltmain.sh	/^func_append ()$/;"	f
+func_append	config.status	/^func_append ()\\$/;"	f
+func_append	configure	/^func_append ()\\$/;"	f
+func_append	libtool	/^func_append ()$/;"	f
+func_append_quoted	build-aux/ltmain.sh	/^func_append_quoted ()$/;"	f
+func_append_quoted	config.status	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	libtool	/^func_append_quoted ()$/;"	f
+func_arith	build-aux/ltmain.sh	/^func_arith ()$/;"	f
+func_arith	config.status	/^func_arith ()\\$/;"	f
+func_arith	configure	/^func_arith ()\\$/;"	f
+func_arith	libtool	/^func_arith ()$/;"	f
+func_at_file	build-aux/ar-lib	/^func_at_file ()$/;"	f
+func_basename	build-aux/ltmain.sh	/^func_basename ()$/;"	f
+func_basename	config.status	/^func_basename ()\\$/;"	f
+func_basename	configure	/^func_basename ()\\$/;"	f
+func_basename	libtool	/^func_basename ()$/;"	f
+func_check_version_match	build-aux/ltmain.sh	/^func_check_version_match ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_cl_wrapper	build-aux/compile	/^func_cl_wrapper ()$/;"	f
+func_config	build-aux/ltmain.sh	/^func_config ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	build-aux/ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_file_wine_to_w32	libtool	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	build-aux/ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	libtool	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	build-aux/ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	libtool	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	build-aux/ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_check	libtool	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	build-aux/ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_cygwin_to_w32	libtool	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	build-aux/ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_cygwin	libtool	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	build-aux/ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_msys_to_w32	libtool	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	build-aux/ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_cygwin	libtool	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	build-aux/ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_nix_to_w32	libtool	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	build-aux/ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_file_noop	libtool	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	build-aux/ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_check	libtool	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	build-aux/ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_cygwin_to_w32	libtool	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	build-aux/ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_front_back_pathsep	libtool	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	build-aux/ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_cygwin	libtool	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	build-aux/ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_msys_to_w32	libtool	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	build-aux/ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_cygwin	libtool	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	build-aux/ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_nix_to_w32	libtool	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	build-aux/ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_convert_path_noop	libtool	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	build-aux/ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib	libtool	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	build-aux/ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback	libtool	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	build-aux/ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	libtool	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	build-aux/ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_gnu_implib_p	libtool	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	build-aux/ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygming_ms_implib_p	libtool	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	build-aux/ltmain.sh	/^func_cygpath ()$/;"	f
+func_cygpath	libtool	/^func_cygpath ()$/;"	f
+func_dirname	build-aux/ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname	config.status	/^func_dirname ()\\$/;"	f
+func_dirname	configure	/^func_dirname ()\\$/;"	f
+func_dirname	libtool	/^func_dirname ()$/;"	f
+func_dirname_and_basename	build-aux/ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	config.status	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	libtool	/^func_dirname_and_basename ()$/;"	f
+func_echo	build-aux/ltmain.sh	/^func_echo ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_echo_all	build-aux/ltmain.sh	/^func_echo_all ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	libtool	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	build-aux/ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	build-aux/ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	build-aux/ltmain.sh	/^func_enable_tag ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_error	build-aux/ar-lib	/^func_error ()$/;"	f
+func_error	build-aux/ltmain.sh	/^func_error ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_exec_program	build-aux/ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program	libtool	/^func_exec_program ()$/;"	f
+func_exec_program	tests/check_check_export	/^func_exec_program ()$/;"	f
+func_exec_program	tests/check_mem_leaks	/^func_exec_program ()$/;"	f
+func_exec_program	tests/check_nofork	/^func_exec_program ()$/;"	f
+func_exec_program	tests/check_nofork_teardown	/^func_exec_program ()$/;"	f
+func_exec_program	tests/check_stress	/^func_exec_program ()$/;"	f
+func_exec_program	tests/check_thread_stress	/^func_exec_program ()$/;"	f
+func_exec_program	tests/ex_output	/^func_exec_program ()$/;"	f
+func_exec_program_core	build-aux/ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	libtool	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	tests/check_check_export	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	tests/check_mem_leaks	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	tests/check_nofork	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	tests/check_nofork_teardown	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	tests/check_stress	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	tests/check_thread_stress	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	tests/ex_output	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	build-aux/ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	build-aux/ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	build-aux/ltmain.sh	/^func_extract_archives ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_fallback_echo	build-aux/ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	config.status	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	libtool	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	tests/check_check_export	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	tests/check_mem_leaks	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	tests/check_nofork	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	tests/check_nofork_teardown	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	tests/check_stress	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	tests/check_thread_stress	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	tests/ex_output	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	build-aux/ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	build-aux/ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_help	build-aux/ltmain.sh	/^func_fatal_help ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_features	build-aux/ltmain.sh	/^func_features ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_file_conv	build-aux/ar-lib	/^func_file_conv ()$/;"	f
+func_file_conv	build-aux/compile	/^func_file_conv ()$/;"	f
+func_generate_dlsyms	build-aux/ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_grep	build-aux/ltmain.sh	/^func_grep ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_help	build-aux/ltmain.sh	/^func_help ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_infer_tag	build-aux/ltmain.sh	/^func_infer_tag ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	build-aux/ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_init_to_host_path_cmd	libtool	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	build-aux/ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	build-aux/ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_len	build-aux/ltmain.sh	/^func_len ()$/;"	f
+func_len	config.status	/^func_len ()\\$/;"	f
+func_len	configure	/^func_len ()\\$/;"	f
+func_len	libtool	/^func_len ()$/;"	f
+func_lo2o	build-aux/ltmain.sh	/^func_lo2o ()$/;"	f
+func_lo2o	config.status	/^func_lo2o ()\\$/;"	f
+func_lo2o	configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	libtool	/^func_lo2o ()$/;"	f
+func_lt_dump_args	build-aux/ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	libtool	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	tests/check_check_export	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	tests/check_mem_leaks	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	tests/check_nofork	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	tests/check_nofork_teardown	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	tests/check_stress	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	tests/check_thread_stress	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	tests/ex_output	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	build-aux/ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	build-aux/ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	build-aux/ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	build-aux/ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	build-aux/ltmain.sh	/^func_missing_arg ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_mkdir_p	build-aux/ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mktempdir	build-aux/ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mode_compile	build-aux/ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_execute	build-aux/ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_finish	build-aux/ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_help	build-aux/ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_install	build-aux/ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_link	build-aux/ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_uninstall	build-aux/ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	build-aux/ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	libtool	/^func_normal_abspath ()$/;"	f
+func_parse_lt_options	build-aux/ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	libtool	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	tests/check_check_export	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	tests/check_mem_leaks	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	tests/check_nofork	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	tests/check_nofork_teardown	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	tests/check_stress	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	tests/check_thread_stress	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	tests/ex_output	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	build-aux/ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	build-aux/ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_relative_path	build-aux/ltmain.sh	/^func_relative_path ()$/;"	f
+func_relative_path	libtool	/^func_relative_path ()$/;"	f
+func_replace_sysroot	build-aux/ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_replace_sysroot	libtool	/^func_replace_sysroot ()$/;"	f
+func_resolve_sysroot	build-aux/ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_resolve_sysroot	libtool	/^func_resolve_sysroot ()$/;"	f
+func_show_eval	build-aux/ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval_locale	build-aux/ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_source	build-aux/ltmain.sh	/^func_source ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_split_long_opt	build-aux/ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_long_opt	config.status	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	libtool	/^func_split_long_opt ()$/;"	f
+func_split_short_opt	build-aux/ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_split_short_opt	config.status	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	libtool	/^func_split_short_opt ()$/;"	f
+func_stripname	build-aux/ltmain.sh	/^func_stripname ()$/;"	f
+func_stripname	config.status	/^func_stripname ()\\$/;"	f
+func_stripname	configure	/^func_stripname ()\\$/;"	f
+func_stripname	libtool	/^func_stripname ()$/;"	f
+func_to_host_file	build-aux/ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_file	libtool	/^func_to_host_file ()$/;"	f
+func_to_host_path	build-aux/ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_tool_file	build-aux/ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_to_tool_file	libtool	/^func_to_tool_file ()$/;"	f
+func_tr_sh	build-aux/ltmain.sh	/^func_tr_sh ()$/;"	f
+func_tr_sh	libtool	/^func_tr_sh ()$/;"	f
+func_usage	build-aux/ltmain.sh	/^func_usage ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_verbose	build-aux/ltmain.sh	/^func_verbose ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_version	build-aux/ltmain.sh	/^func_version ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_warning	build-aux/ltmain.sh	/^func_warning ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_win32_import_lib_p	build-aux/ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	libtool	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	build-aux/ltmain.sh	/^func_win32_libid ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	build-aux/ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_xform	build-aux/ltmain.sh	/^func_xform ()$/;"	f
+func_xform	config.status	/^func_xform ()\\$/;"	f
+func_xform	configure	/^func_xform ()\\$/;"	f
+func_xform	libtool	/^func_xform ()$/;"	f
+get_env_printmode	src/check_print.c	/^enum print_output get_env_printmode(void)$/;"	f
+get_next_failure_line_num	tests/check_check_master.c	/^int get_next_failure_line_num(FILE * file)$/;"	f
+get_pipe	src/check_msg.c	/^static FILE *get_pipe(void)$/;"	f	file:
+get_result	src/check_pack.c	/^static int get_result(char *buf, RcvMsg * rmsg)$/;"	f	file:
+getexponent	lib/snprintf.c	/^getexponent(LDOUBLE value)$/;"	f	file:
+getline	lib/getline.c	/^ssize_t getline(char **lineptr, size_t *n, FILE *stream)$/;"	f
+getnumsep	lib/snprintf.c	/^getnumsep(int digits)$/;"	f	file:
+getpid	lib/libcompat.h	96;"	d
+gettimeofday	lib/gettimeofday.c	/^int gettimeofday(struct timeval *tv, void *tz)$/;"	f
+group_pid	src/check_run.c	/^static pid_t group_pid;$/;"	v	file:
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	checkmk/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	doc/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	lib/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	src/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	tests/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	checkmk/Makefile	/^host_alias = $/;"	m
+host_alias	doc/Makefile	/^host_alias = $/;"	m
+host_alias	lib/Makefile	/^host_alias = $/;"	m
+host_alias	src/Makefile	/^host_alias = $/;"	m
+host_alias	tests/Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_cpu	checkmk/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	doc/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	lib/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	src/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	tests/Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_os	checkmk/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	doc/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	lib/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	src/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	tests/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	checkmk/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	doc/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	lib/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	src/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	tests/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+host_vendor	checkmk/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	doc/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	lib/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	src/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	tests/Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	checkmk/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	doc/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	lib/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	src/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	tests/Makefile	/^htmldir = ${docdir}$/;"	m
+in_main	checkmk/checkmk	/^function in_main()$/;"	f
+in_main_error	checkmk/checkmk	/^function in_main_error()$/;"	f
+include_HEADERS	Makefile	/^include_HEADERS = check_stdint.h$/;"	m
+include_HEADERS	src/Makefile	/^include_HEADERS = check.h$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	checkmk/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	doc/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	lib/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	tests/Makefile	/^includedir = ${prefix}\/include$/;"	m
+info_TEXINFOS	doc/Makefile	/^info_TEXINFOS = check.texi$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	checkmk/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	doc/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	lib/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	tests/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_signal_strings	tests/check_check_master.c	/^static void init_signal_strings(void)$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/install-sh$/;"	m
+install_sh	checkmk/Makefile	/^install_sh = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/install-sh$/;"	m
+install_sh	doc/Makefile	/^install_sh = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/install-sh$/;"	m
+install_sh	lib/Makefile	/^install_sh = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/install-sh$/;"	m
+install_sh	src/Makefile	/^install_sh = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/install-sh$/;"	m
+install_sh	tests/Makefile	/^install_sh = ${SHELL} \/root\/05_day\/check-0.10.0\/build-aux\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	checkmk/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	doc/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	lib/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	tests/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	checkmk/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	doc/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	lib/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	tests/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	checkmk/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	doc/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	lib/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	tests/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+ischecked	src/check_impl.h	/^    int ischecked;$/;"	m	struct:Fixture
+it_interval	lib/libcompat.h	/^    struct timespec it_interval;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec
+it_value	lib/libcompat.h	/^    struct timespec it_value;$/;"	m	struct:itimerspec	typeref:struct:itimerspec::timespec
+iter	src/check_impl.h	/^    int iter;                   \/* The iteration value for looping tests *\/$/;"	m	struct:TestResult
+itimerspec	lib/libcompat.h	/^struct itimerspec$/;"	s
+last	src/check_list.c	/^    int last;                   \/* pointer to the node before END *\/$/;"	m	struct:List	file:
+lastctx	src/check_pack.h	/^    enum ck_result_ctx lastctx;$/;"	m	struct:RcvMsg	typeref:enum:RcvMsg::ck_result_ctx
+lfile	src/check_impl.h	/^    FILE *lfile;$/;"	m	struct:Log
+lfile_lfun	src/check_log.c	/^void lfile_lfun(SRunner * sr, FILE * file,$/;"	f
+lfun	src/check_impl.h	/^    LFun lfun;$/;"	m	struct:Log
+lib_LTLIBRARIES	src/Makefile	/^lib_LTLIBRARIES = libcheck.la$/;"	m
+libcheck_la_DEPENDENCIES	src/Makefile	/^libcheck_la_DEPENDENCIES = $(EXPORT_SYM)$/;"	m
+libcheck_la_LDFLAGS	src/Makefile	/^libcheck_la_LDFLAGS = -no-undefined -export-symbols $(EXPORT_SYM)$/;"	m
+libcheck_la_LIBADD	src/Makefile	/^libcheck_la_LIBADD =   $(LIBSUBUNIT_LIBS) $(top_builddir)\/lib\/libcompat.la$/;"	m
+libcheck_la_LINK	src/Makefile	/^libcheck_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libcheck_la_OBJECTS	src/Makefile	/^libcheck_la_OBJECTS = $(am_libcheck_la_OBJECTS)$/;"	m
+libcheck_la_SOURCES	src/Makefile	/^libcheck_la_SOURCES = $(CFILES) $(HFILES)$/;"	m
+libcheckinternal_la_DEPENDENCIES	src/Makefile	/^libcheckinternal_la_DEPENDENCIES = $(am__DEPENDENCIES_1) \\$/;"	m
+libcheckinternal_la_LDFLAGS	src/Makefile	/^libcheckinternal_la_LDFLAGS = -no-undefined$/;"	m
+libcheckinternal_la_LIBADD	src/Makefile	/^libcheckinternal_la_LIBADD =   $(LIBSUBUNIT_LIBS) $(top_builddir)\/lib\/libcompat.la$/;"	m
+libcheckinternal_la_LINK	src/Makefile	/^libcheckinternal_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+libcheckinternal_la_OBJECTS	src/Makefile	/^libcheckinternal_la_OBJECTS = $(am_libcheckinternal_la_OBJECTS)$/;"	m
+libcheckinternal_la_SOURCES	src/Makefile	/^libcheckinternal_la_SOURCES = $(CFILES) $(HFILES)$/;"	m
+libcompat_la_DEPENDENCIES	lib/Makefile	/^libcompat_la_DEPENDENCIES = $(LTLIBOBJS)$/;"	m
+libcompat_la_LDFLAGS	lib/Makefile	/^libcompat_la_LDFLAGS = -no-undefined$/;"	m
+libcompat_la_LIBADD	lib/Makefile	/^libcompat_la_LIBADD = $(LTLIBOBJS) $(LTALLOCA)$/;"	m
+libcompat_la_LINK	lib/Makefile	/^libcompat_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+libcompat_la_OBJECTS	lib/Makefile	/^libcompat_la_OBJECTS = $(am_libcompat_la_OBJECTS)$/;"	m
+libcompat_la_SOURCES	lib/Makefile	/^libcompat_la_SOURCES = libcompat.c libcompat.h$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	checkmk/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	doc/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	lib/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	tests/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	checkmk/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	doc/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	lib/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	tests/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+limit_setup	tests/check_check_limit.c	/^static void limit_setup (void)$/;"	f	file:
+limit_teardown	tests/check_check_limit.c	/^static void limit_teardown (void)$/;"	f	file:
+line	src/check_impl.h	/^    int line;                   \/* Line number where the test occurred *\/$/;"	m	struct:TestResult
+line	src/check_pack.h	/^    int line;$/;"	m	struct:LocMsg
+line_num_failures	tests/check_check_master.c	/^FILE * line_num_failures = NULL;$/;"	v
+line_num_failures_file_name	tests/check_check_master.c	/^char * line_num_failures_file_name = NULL;$/;"	v
+loc_msg	src/check_pack.h	/^    LocMsg loc_msg;$/;"	m	union:__anon1
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	checkmk/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	doc/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	lib/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	tests/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	checkmk/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	doc/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	lib/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	tests/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localtime_r	lib/localtime_r.c	/^struct tm *localtime_r(const time_t * clock, struct tm *result)$/;"	f
+log_fname	src/check_impl.h	/^    const char *log_fname;      \/* name of log file *\/$/;"	m	struct:SRunner
+log_srunner_end	src/check_log.c	/^void log_srunner_end(SRunner * sr)$/;"	f
+log_srunner_start	src/check_log.c	/^void log_srunner_start(SRunner * sr)$/;"	f
+log_suite_end	src/check_log.c	/^void log_suite_end(SRunner * sr, Suite * s)$/;"	f
+log_suite_start	src/check_log.c	/^void log_suite_start(SRunner * sr, Suite * s)$/;"	f
+log_test_end	src/check_log.c	/^void log_test_end(SRunner * sr, TestResult * tr)$/;"	f
+log_test_start	src/check_log.c	/^void log_test_start(SRunner * sr, TCase * tc, TF * tfun)$/;"	f
+loglst	src/check_impl.h	/^    List *loglst;               \/* list of Log objects *\/$/;"	m	struct:SRunner
+loop_end	src/check_impl.h	/^    int loop_end;$/;"	m	struct:TF
+loop_start	src/check_impl.h	/^    int loop_start;$/;"	m	struct:TF
+m4data_DATA	Makefile	/^m4data_DATA = check.m4$/;"	m
+m4datadir	Makefile	/^m4datadir = $(datadir)\/aclocal$/;"	m
+main	build-aux/config.guess	/^		main()$/;"	f
+main	build-aux/config.guess	/^	main ()$/;"	f
+main	build-aux/config.guess	/^main ()$/;"	f
+main	doc/example/src/main.c	/^int main(void)$/;"	f
+main	doc/example/tests/check_money.1.c	/^int main(void)$/;"	f
+main	doc/example/tests/check_money.2.c	/^int main(void)$/;"	f
+main	doc/example/tests/check_money.3.c	/^int main(void)$/;"	f
+main	doc/example/tests/check_money.6.c	/^int main(void)$/;"	f
+main	doc/example/tests/check_money.7.c	/^int main(void)$/;"	f
+main	doc/example/tests/check_money.c	/^int main(void)$/;"	f
+main	lib/snprintf.c	/^main(void)$/;"	f
+main	tests/check_check_export_main.c	/^int main (void)$/;"	f
+main	tests/check_check_main.c	/^int main (void)$/;"	f
+main	tests/check_mem_leaks.c	/^int main ()$/;"	f
+main	tests/check_nofork.c	/^int main(void)$/;"	f
+main	tests/check_nofork_teardown.c	/^int main( void )$/;"	f
+main	tests/check_stress.c	/^int main(void)$/;"	f
+main	tests/check_thread_stress.c	/^main (void)$/;"	f
+main	tests/ex_output.c	/^int main(int argc, char **argv)$/;"	f
+main_post	checkmk/checkmk	/^function main_post()$/;"	f
+main_pre	checkmk/checkmk	/^function main_pre()$/;"	f
+make_exit_suite	tests/check_check_exit.c	/^Suite *make_exit_suite(void)$/;"	f
+make_fixture_suite	tests/check_check_fixture.c	/^Suite *make_fixture_suite (void)$/;"	f
+make_fork_sub_suite	tests/check_check_fork.c	/^static Suite *make_fork_sub_suite (void)$/;"	f	file:
+make_fork_suite	tests/check_check_fork.c	/^Suite *make_fork_suite(void)$/;"	f
+make_limit_suite	tests/check_check_limit.c	/^Suite *make_limit_suite (void)$/;"	f
+make_list_suite	tests/check_list.c	/^Suite *make_list_suite (void)$/;"	f
+make_log1_suite	tests/ex_output.c	/^static Suite *make_log1_suite(void)$/;"	f	file:
+make_log2_suite	tests/ex_output.c	/^static Suite *make_log2_suite(int include_exit_test)$/;"	f	file:
+make_log_internal_suite	tests/check_check_log_internal.c	/^Suite *make_log_internal_suite(void)$/;"	f
+make_log_suite	tests/check_check_log.c	/^Suite *make_log_suite(void)$/;"	f
+make_master_suite	tests/check_check_master.c	/^Suite *make_master_suite (void)$/;"	f
+make_msg_suite	tests/check_check_msg.c	/^Suite *make_msg_suite (void)$/;"	f
+make_pack_suite	tests/check_check_pack.c	/^Suite *make_pack_suite(void)$/;"	f
+make_selective_suite	tests/check_check_selective.c	/^Suite *make_selective_suite (void)$/;"	f
+make_sub2_suite	tests/check_check_sub.c	/^Suite *make_sub2_suite(void)$/;"	f
+make_sub_suite	tests/check_check_sub.c	/^Suite *make_sub_suite(void)$/;"	f
+make_xml_esc_suite	tests/ex_output.c	/^static Suite *make_xml_esc_suite(void)$/;"	f	file:
+malloc	lib/malloc.c	9;"	d	file:
+man1dir	checkmk/Makefile	/^man1dir = $(mandir)\/man1$/;"	m
+man_MANS	checkmk/Makefile	/^man_MANS = doc\/checkmk.1$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	checkmk/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	doc/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	lib/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	tests/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mark_point	src/check.h	779;"	d
+master_test_t	tests/check_check_master.c	/^} master_test_t;$/;"	t	typeref:struct:__anon3	file:
+master_tests	tests/check_check_master.c	/^static master_test_t master_tests[] = {$/;"	v	file:
+max_elts	src/check_list.c	/^    unsigned int max_elts;$/;"	m	struct:List	file:
+maybe_grow	src/check_list.c	/^static void maybe_grow(List * lp)$/;"	f	file:
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	checkmk/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	doc/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	lib/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	src/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	tests/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	checkmk/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	doc/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	lib/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	tests/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mode	src/check_impl.h	/^    enum print_output mode;$/;"	m	struct:Log	typeref:enum:Log::print_output
+money_amount	doc/example/src/money.3.c	/^int money_amount(Money * m)$/;"	f
+money_amount	doc/example/src/money.4.c	/^int money_amount(Money * m)$/;"	f
+money_amount	doc/example/src/money.5.c	/^int money_amount(Money * m)$/;"	f
+money_amount	doc/example/src/money.6.c	/^int money_amount(Money * m)$/;"	f
+money_amount	doc/example/src/money.c	/^int money_amount(Money * m)$/;"	f
+money_create	doc/example/src/money.3.c	/^Money *money_create(int amount, char *currency)$/;"	f
+money_create	doc/example/src/money.4.c	/^Money *money_create(int amount, char *currency)$/;"	f
+money_create	doc/example/src/money.5.c	/^Money *money_create(int amount, char *currency)$/;"	f
+money_create	doc/example/src/money.6.c	/^Money *money_create(int amount, char *currency)$/;"	f
+money_create	doc/example/src/money.c	/^Money *money_create(int amount, char *currency)$/;"	f
+money_currency	doc/example/src/money.3.c	/^char *money_currency(Money * m)$/;"	f
+money_currency	doc/example/src/money.4.c	/^char *money_currency(Money * m)$/;"	f
+money_currency	doc/example/src/money.5.c	/^char *money_currency(Money * m)$/;"	f
+money_currency	doc/example/src/money.6.c	/^char *money_currency(Money * m)$/;"	f
+money_currency	doc/example/src/money.c	/^char *money_currency(Money * m)$/;"	f
+money_free	doc/example/src/money.3.c	/^void money_free(Money * m)$/;"	f
+money_free	doc/example/src/money.4.c	/^void money_free(Money * m)$/;"	f
+money_free	doc/example/src/money.5.c	/^void money_free(Money * m)$/;"	f
+money_free	doc/example/src/money.6.c	/^void money_free(Money * m)$/;"	f
+money_free	doc/example/src/money.c	/^void money_free(Money * m)$/;"	f
+money_suite	doc/example/tests/check_money.3.c	/^Suite * money_suite(void)$/;"	f
+money_suite	doc/example/tests/check_money.6.c	/^Suite * money_suite(void)$/;"	f
+money_suite	doc/example/tests/check_money.7.c	/^Suite * money_suite(void)$/;"	f
+money_suite	doc/example/tests/check_money.c	/^Suite * money_suite(void)$/;"	f
+msg	src/check_impl.h	/^    char *msg;                  \/* Failure message *\/$/;"	m	struct:TestResult
+msg	src/check_pack.h	/^    char *msg;$/;"	m	struct:FailMsg
+msg	src/check_pack.h	/^    char *msg;$/;"	m	struct:RcvMsg
+msg	tests/check_check_master.c	/^  const char *msg;$/;"	m	struct:__anon3	file:
+mymemcpy	lib/snprintf.c	/^mymemcpy(void *dst, void *src, size_t len)$/;"	f
+mypid	tests/check_check_fork.c	/^static pid_t mypid;$/;"	v	file:
+mypow10	lib/snprintf.c	/^mypow10(int exponent)$/;"	f	file:
+myround	lib/snprintf.c	/^myround(LDOUBLE value)$/;"	f	file:
+n_checked	src/check_impl.h	/^    int n_checked;$/;"	m	struct:TestStats
+n_elts	src/check_list.c	/^    unsigned int n_elts;$/;"	m	struct:List	file:
+n_errors	src/check_impl.h	/^    int n_errors;$/;"	m	struct:TestStats
+n_failed	src/check_impl.h	/^    int n_failed;$/;"	m	struct:TestStats
+name	src/check_impl.h	/^    const char *name;$/;"	m	struct:Suite
+name	src/check_impl.h	/^    const char *name;$/;"	m	struct:TCase
+name	src/check_impl.h	/^    const char *name;$/;"	m	struct:TF
+noinst_LTLIBRARIES	lib/Makefile	/^noinst_LTLIBRARIES = libcompat.la$/;"	m
+noinst_LTLIBRARIES	src/Makefile	/^noinst_LTLIBRARIES = libcheckinternal.la$/;"	m
+noinst_PROGRAMS	tests/Makefile	/^noinst_PROGRAMS = check_check_export$(EXEEXT) check_check$(EXEEXT) \\$/;"	m
+non_pass	src/check.c	/^static int non_pass(int val)$/;"	f	file:
+nr_of_master_tests	tests/check_check_master.c	/^static int nr_of_master_tests = sizeof master_tests \/sizeof master_tests[0];$/;"	v	file:
+numhead0  #1	build-aux/texinfo.tex	/^\\outer\\parseargdef\\chapter{\\numhead0{#1}} % normally numhead0 calls chapterzzz$/;"	c
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	checkmk/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	doc/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	lib/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	tests/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+open_tmp_file	src/check_msg.c	/^FILE *open_tmp_file(char **name)$/;"	f
+pack	src/check_pack.c	/^int pack(enum ck_msg_type type, char **buf, CheckMsg * msg)$/;"	f
+pack_ctx	src/check_pack.c	/^static int pack_ctx(char **buf, CtxMsg * cmsg)$/;"	f	file:
+pack_duration	src/check_pack.c	/^static int pack_duration(char **buf, DurationMsg * cmsg)$/;"	f	file:
+pack_fail	src/check_pack.c	/^static int pack_fail(char **buf, FailMsg * fmsg)$/;"	f	file:
+pack_int	src/check_pack.c	/^static void pack_int(char **buf, int val)$/;"	f	file:
+pack_loc	src/check_pack.c	/^static int pack_loc(char **buf, LocMsg * lmsg)$/;"	f	file:
+pack_str	src/check_pack.c	/^static void pack_str(char **buf, const char *val)$/;"	f	file:
+pack_type	src/check_pack.c	/^static void pack_type(char **buf, enum ck_msg_type type)$/;"	f	file:
+parseargusing filenamecatcodes includezzz	build-aux/texinfo.tex	/^\\def\\include{\\parseargusing\\filenamecatcodes\\includezzz}$/;"	i
+partzzz  #1	build-aux/texinfo.tex	/^\\outer\\parseargdef\\part{\\partzzz{#1}}$/;"	p
+pass_dir	checkmk/test/check_checkmk	/^pass_dir() {$/;"	f
+pass_msg	src/check_run.c	/^static char *pass_msg(void)$/;"	f	file:
+pcdata_DATA	Makefile	/^pcdata_DATA = check.pc$/;"	m
+pcdatadir	Makefile	/^pcdatadir = $(libdir)\/pkgconfig$/;"	m
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	checkmk/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	doc/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	lib/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	tests/Makefile	/^pdfdir = ${docdir}$/;"	m
+percent_passed	src/check_str.c	/^static int percent_passed(TestStats * t)$/;"	f	file:
+pftab	src/check_pack.c	/^static pfun pftab[] = {$/;"	v	file:
+pfun	src/check_pack.c	/^typedef int (*pfun) (char **, CheckMsg *);$/;"	t	file:
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/check$/;"	m
+pkgdatadir	checkmk/Makefile	/^pkgdatadir = $(datadir)\/check$/;"	m
+pkgdatadir	doc/Makefile	/^pkgdatadir = $(datadir)\/check$/;"	m
+pkgdatadir	lib/Makefile	/^pkgdatadir = $(datadir)\/check$/;"	m
+pkgdatadir	src/Makefile	/^pkgdatadir = $(datadir)\/check$/;"	m
+pkgdatadir	tests/Makefile	/^pkgdatadir = $(datadir)\/check$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/check$/;"	m
+pkgincludedir	checkmk/Makefile	/^pkgincludedir = $(includedir)\/check$/;"	m
+pkgincludedir	doc/Makefile	/^pkgincludedir = $(includedir)\/check$/;"	m
+pkgincludedir	lib/Makefile	/^pkgincludedir = $(includedir)\/check$/;"	m
+pkgincludedir	src/Makefile	/^pkgincludedir = $(includedir)\/check$/;"	m
+pkgincludedir	tests/Makefile	/^pkgincludedir = $(includedir)\/check$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/check$/;"	m
+pkglibdir	checkmk/Makefile	/^pkglibdir = $(libdir)\/check$/;"	m
+pkglibdir	doc/Makefile	/^pkglibdir = $(libdir)\/check$/;"	m
+pkglibdir	lib/Makefile	/^pkglibdir = $(libdir)\/check$/;"	m
+pkglibdir	src/Makefile	/^pkglibdir = $(libdir)\/check$/;"	m
+pkglibdir	tests/Makefile	/^pkglibdir = $(libdir)\/check$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/check$/;"	m
+pkglibexecdir	checkmk/Makefile	/^pkglibexecdir = $(libexecdir)\/check$/;"	m
+pkglibexecdir	doc/Makefile	/^pkglibexecdir = $(libexecdir)\/check$/;"	m
+pkglibexecdir	lib/Makefile	/^pkglibexecdir = $(libexecdir)\/check$/;"	m
+pkglibexecdir	src/Makefile	/^pkglibexecdir = $(libexecdir)\/check$/;"	m
+pkglibexecdir	tests/Makefile	/^pkglibexecdir = $(libexecdir)\/check$/;"	m
+ppack	src/check_pack.c	/^void ppack(FILE * fdes, enum ck_msg_type type, CheckMsg * msg)$/;"	f
+ppack_cleanup	src/check_pack.c	/^static void ppack_cleanup(void *mutex)$/;"	f	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	checkmk/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	doc/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	lib/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	src/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	tests/Makefile	/^prefix = \/usr\/local$/;"	m
+print_boilerplate	checkmk/checkmk	/^function print_boilerplate()$/;"	f
+print_main_declarations	checkmk/checkmk	/^function print_main_declarations()$/;"	f
+print_output	src/check.h	/^enum print_output$/;"	g
+print_runner_bindings	checkmk/checkmk	/^function print_runner_bindings()$/;"	f
+print_usage	tests/ex_output.c	/^static void print_usage(void)$/;"	f	file:
+printsep	lib/snprintf.c	/^printsep(char *str, size_t *len, size_t size)$/;"	f	file:
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	checkmk/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	doc/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	lib/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	tests/Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	checkmk/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	doc/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	lib/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	src/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	tests/Makefile	/^psdir = ${docdir}$/;"	m
+pthread_cleanup_pop	src/check_pack.c	37;"	d	file:
+pthread_cleanup_push	src/check_pack.c	36;"	d	file:
+pthread_mutex_lock	src/check_pack.c	34;"	d	file:
+pthread_mutex_unlock	src/check_pack.c	35;"	d	file:
+punpack	src/check_pack.c	/^RcvMsg *punpack(FILE * fdes)$/;"	f
+rcvmsg_create	src/check_pack.c	/^static RcvMsg *rcvmsg_create(void)$/;"	f	file:
+rcvmsg_free	src/check_pack.c	/^void rcvmsg_free(RcvMsg * rmsg)$/;"	f
+rcvmsg_update_ctx	src/check_pack.c	/^static void rcvmsg_update_ctx(RcvMsg * rmsg, enum ck_result_ctx ctx)$/;"	f	file:
+rcvmsg_update_loc	src/check_pack.c	/^static void rcvmsg_update_loc(RcvMsg * rmsg, const char *file, int line)$/;"	f	file:
+read_buf	src/check_pack.c	/^static int read_buf(FILE * fdes, int size, char *buf)$/;"	f	file:
+realloc	lib/realloc.c	10;"	d	file:
+receive_result_info_fork	src/check_run.c	/^static TestResult *receive_result_info_fork(const char *tcname,$/;"	f	file:
+receive_result_info_nofork	src/check_run.c	/^static TestResult *receive_result_info_nofork(const char *tcname,$/;"	f	file:
+receive_test_result	src/check_msg.c	/^TestResult *receive_test_result(int waserror)$/;"	f
+record_failure_line_num	tests/check_check_master.c	/^void record_failure_line_num(int linenum)$/;"	f
+register_test	checkmk/checkmk	/^function register_test()$/;"	f
+reset_executed	tests/check_check_selective.c	/^static void reset_executed (void)$/;"	f	file:
+reset_rcv_fixture	src/check_pack.c	/^static void reset_rcv_fixture(RcvMsg * rmsg)$/;"	f	file:
+reset_rcv_test	src/check_pack.c	/^static void reset_rcv_test(RcvMsg * rmsg)$/;"	f	file:
+restore_env	tests/check_check_log.c	/^static int restore_env(const char *name, const char *old_value)$/;"	f	file:
+resultlst	src/check_impl.h	/^    List *resultlst;            \/* List of unit test results *\/$/;"	m	struct:SRunner
+rinfo	src/check_run.c	/^enum rinfo$/;"	g	file:
+rpl_asprintf	lib/snprintf.c	/^rpl_asprintf(char **ret, const char *format, ...)$/;"	f
+rpl_malloc	lib/malloc.c	/^void *rpl_malloc(size_t n)$/;"	f
+rpl_realloc	lib/realloc.c	/^void *rpl_realloc(void *p, size_t n)$/;"	f
+rpl_snprintf	lib/snprintf.c	/^rpl_snprintf(char *str, size_t size, const char *format, ...)$/;"	f
+rpl_vasprintf	lib/snprintf.c	/^rpl_vasprintf(char **ret, const char *format, va_list ap)$/;"	f
+rpl_vsnprintf	lib/snprintf.c	/^rpl_vsnprintf(char *str, size_t size, const char *format, va_list args)$/;"	f
+rtype	src/check_impl.h	/^    enum test_result rtype;     \/* Type of result *\/$/;"	m	struct:TestResult	typeref:enum:TestResult::test_result
+run	tests/check_stress.c	/^static void run (int num_iters)$/;"	f	file:
+run_tests	tests/ex_output.c	/^static void run_tests(enum print_output printmode, char *log_type, int include_exit_test)$/;"	f	file:
+s	tests/check_nofork.c	/^Suite *s;$/;"	v
+s	tests/check_stress.c	/^Suite *s;$/;"	v
+s	tests/check_thread_stress.c	/^Suite *s;$/;"	v
+save_set_env	tests/check_check_log.c	/^static int save_set_env(const char *name, const char *value,$/;"	f	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	checkmk/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	doc/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	lib/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	tests/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+selective_setup	tests/check_check_selective.c	/^static void selective_setup (void)$/;"	f	file:
+selective_teardown	tests/check_check_selective.c	/^static void selective_teardown (void)$/;"	f	file:
+send_ctx_info	src/check_msg.c	/^void send_ctx_info(enum ck_result_ctx ctx)$/;"	f
+send_duration_info	src/check_msg.c	/^void send_duration_info(int duration)$/;"	f
+send_failure_info	src/check_msg.c	/^void send_failure_info(const char *msg)$/;"	f
+send_file1	src/check_msg.c	/^static FILE *send_file1;$/;"	v	file:
+send_file1_name	src/check_msg.c	/^static char *send_file1_name;$/;"	v	file:
+send_file2	src/check_msg.c	/^static FILE *send_file2;$/;"	v	file:
+send_file2_name	src/check_msg.c	/^static char *send_file2_name;$/;"	v	file:
+send_loc_info	src/check_msg.c	/^void send_loc_info(const char *file, int line)$/;"	f
+sendinfo	tests/check_thread_stress.c	/^sendinfo (void *userdata CK_ATTRIBUTE_UNUSED)$/;"	f	file:
+set_fork_info	src/check_run.c	/^static void set_fork_info(TestResult * tr, int status, int signal_expected,$/;"	f	file:
+set_fork_status	src/check.c	/^void set_fork_status(enum fork_status fstat)$/;"	f
+set_nofork_info	src/check_run.c	/^static void set_nofork_info(TestResult * tr)$/;"	f	file:
+setup	doc/example/tests/check_money.7.c	/^void setup(void)$/;"	f
+setup	doc/example/tests/check_money.c	/^void setup(void)$/;"	f
+setup	tests/check_check_master.c	/^void setup (void)$/;"	f
+setup_fixture	tests/check_check_fixture.c	/^void setup_fixture (void)$/;"	f
+setup_messaging	src/check_msg.c	/^void setup_messaging(void)$/;"	f
+setup_pipe	src/check_msg.c	/^static void setup_pipe(void)$/;"	f	file:
+setup_sub_fail	tests/check_check_fixture.c	/^static void setup_sub_fail (void)$/;"	f	file:
+setup_sub_signal	tests/check_check_fixture.c	/^static void setup_sub_signal (void)$/;"	f	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	checkmk/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	doc/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	lib/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	tests/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sig_handler	src/check_run.c	/^static void CK_ATTRIBUTE_UNUSED sig_handler(int sig_nr)$/;"	f	file:
+sigint_old_action	src/check_run.c	/^static struct sigaction sigint_old_action;$/;"	v	typeref:struct:sigaction	file:
+signal	src/check_impl.h	/^    int signal;$/;"	m	struct:TF
+signal_11_8_str	tests/check_check_master.c	/^static char signal_11_8_str[SIG_STR_LEN];$/;"	v	file:
+signal_11_str	tests/check_check_master.c	/^static char signal_11_str[SIG_STR_LEN];$/;"	v	file:
+signal_8_str	tests/check_check_master.c	/^static char signal_8_str[SIG_STR_LEN];$/;"	v	file:
+signal_error_msg	src/check_run.c	/^static char *signal_error_msg(int signal_received, int signal_expected)$/;"	f	file:
+signal_msg	src/check_run.c	/^static char *signal_msg(int signal)$/;"	f	file:
+sigterm_old_action	src/check_run.c	/^static struct sigaction sigterm_old_action;$/;"	v	typeref:struct:sigaction	file:
+slst	src/check_impl.h	/^    List *slst;                 \/* List of Suite objects *\/$/;"	m	struct:SRunner
+snprintf	lib/libcompat.h	201;"	d
+snprintf	lib/snprintf.c	205;"	d	file:
+snprintf	lib/snprintf.c	272;"	d	file:
+sr	tests/check_check_limit.c	/^static SRunner *sr;$/;"	v	file:
+sr	tests/check_check_selective.c	/^static SRunner *sr;$/;"	v	file:
+sr	tests/check_nofork.c	/^SRunner *sr;$/;"	v
+sr	tests/check_stress.c	/^SRunner *sr;$/;"	v
+sr	tests/check_thread_stress.c	/^SRunner *sr;$/;"	v
+sr_stat_str	src/check_str.c	/^char *sr_stat_str(SRunner * sr)$/;"	f
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	checkmk/Makefile	/^srcdir = .$/;"	m
+srcdir	doc/Makefile	/^srcdir = .$/;"	m
+srcdir	lib/Makefile	/^srcdir = .$/;"	m
+srcdir	src/Makefile	/^srcdir = .$/;"	m
+srcdir	tests/Makefile	/^srcdir = .$/;"	m
+srunner_add_failure	src/check_run.c	/^static void srunner_add_failure(SRunner * sr, TestResult * tr)$/;"	f	file:
+srunner_add_suite	src/check.c	/^void srunner_add_suite(SRunner * sr, Suite * s)$/;"	f
+srunner_create	src/check.c	/^SRunner *srunner_create(Suite * s)$/;"	f
+srunner_end_logging	src/check_log.c	/^void srunner_end_logging(SRunner * sr)$/;"	f
+srunner_failures	src/check.c	/^TestResult **srunner_failures(SRunner * sr)$/;"	f
+srunner_fork_status	src/check_run.c	/^enum fork_status srunner_fork_status(SRunner * sr)$/;"	f
+srunner_fprint	src/check_print.c	/^void srunner_fprint(FILE * file, SRunner * sr, enum print_output print_mode)$/;"	f
+srunner_fprint_results	src/check_print.c	/^static void srunner_fprint_results(FILE * file, SRunner * sr,$/;"	f	file:
+srunner_fprint_summary	src/check_print.c	/^static void srunner_fprint_summary(FILE * file, SRunner * sr,$/;"	f	file:
+srunner_free	src/check.c	/^void srunner_free(SRunner * sr)$/;"	f
+srunner_has_log	src/check_log.c	/^int srunner_has_log(SRunner * sr)$/;"	f
+srunner_has_tap	src/check_log.c	/^int srunner_has_tap(SRunner * sr)$/;"	f
+srunner_has_xml	src/check_log.c	/^int srunner_has_xml(SRunner * sr)$/;"	f
+srunner_init_logging	src/check_log.c	/^void srunner_init_logging(SRunner * sr, enum print_output print_mode)$/;"	f
+srunner_iterate_suites	src/check_run.c	/^static void srunner_iterate_suites(SRunner * sr,$/;"	f	file:
+srunner_iterate_tcase_tfuns	src/check_run.c	/^static void srunner_iterate_tcase_tfuns(SRunner * sr, TCase * tc)$/;"	f	file:
+srunner_log_fname	src/check_log.c	/^const char *srunner_log_fname(SRunner * sr)$/;"	f
+srunner_ntests_failed	src/check.c	/^int srunner_ntests_failed(SRunner * sr)$/;"	f
+srunner_ntests_run	src/check.c	/^int srunner_ntests_run(SRunner * sr)$/;"	f
+srunner_open_file	src/check_log.c	/^static FILE *srunner_open_file(const char *filename)$/;"	f	file:
+srunner_open_lfile	src/check_log.c	/^FILE *srunner_open_lfile(SRunner * sr)$/;"	f
+srunner_open_tapfile	src/check_log.c	/^FILE *srunner_open_tapfile(SRunner * sr)$/;"	f
+srunner_open_xmlfile	src/check_log.c	/^FILE *srunner_open_xmlfile(SRunner * sr)$/;"	f
+srunner_print	src/check_print.c	/^void srunner_print(SRunner * sr, enum print_output print_mode)$/;"	f
+srunner_register_lfun	src/check_log.c	/^void srunner_register_lfun(SRunner * sr, FILE * lfile, int close,$/;"	f
+srunner_results	src/check.c	/^TestResult **srunner_results(SRunner * sr)$/;"	f
+srunner_run	src/check_run.c	/^void srunner_run(SRunner * sr, const char *sname, const char *tcname,$/;"	f
+srunner_run_all	src/check_run.c	/^void srunner_run_all(SRunner * sr, enum print_output print_mode)$/;"	f
+srunner_run_end	src/check_run.c	/^static void srunner_run_end(SRunner * sr,$/;"	f	file:
+srunner_run_init	src/check_run.c	/^static void srunner_run_init(SRunner * sr, enum print_output print_mode)$/;"	f	file:
+srunner_run_setup	src/check_run.c	/^static TestResult * srunner_run_setup(List * fixture_list, enum fork_status fork_usage,$/;"	f	file:
+srunner_run_tcase	src/check_run.c	/^static void srunner_run_tcase(SRunner * sr, TCase * tc)$/;"	f	file:
+srunner_run_teardown	src/check_run.c	/^static void srunner_run_teardown(List * fixture_list, enum fork_status fork_usage)$/;"	f	file:
+srunner_run_unchecked_setup	src/check_run.c	/^static int srunner_run_unchecked_setup(SRunner * sr, TCase * tc)$/;"	f	file:
+srunner_run_unchecked_teardown	src/check_run.c	/^static void srunner_run_unchecked_teardown(SRunner * sr, TCase * tc)$/;"	f	file:
+srunner_send_evt	src/check_log.c	/^static void srunner_send_evt(SRunner * sr, void *obj, enum cl_event evt)$/;"	f	file:
+srunner_set_fork_status	src/check_run.c	/^void srunner_set_fork_status(SRunner * sr, enum fork_status fstat)$/;"	f
+srunner_set_log	src/check_log.c	/^void srunner_set_log(SRunner * sr, const char *fname)$/;"	f
+srunner_set_tap	src/check_log.c	/^void srunner_set_tap(SRunner * sr, const char *fname)$/;"	f
+srunner_set_xml	src/check_log.c	/^void srunner_set_xml(SRunner * sr, const char *fname)$/;"	f
+srunner_tap_fname	src/check_log.c	/^const char *srunner_tap_fname(SRunner * sr)$/;"	f
+srunner_xml_fname	src/check_log.c	/^const char *srunner_xml_fname(SRunner * sr)$/;"	f
+stats	src/check_impl.h	/^    TestStats *stats;           \/* Run statistics *\/$/;"	m	struct:SRunner
+stdout_lfun	src/check_log.c	/^void stdout_lfun(SRunner * sr, FILE * file, enum print_output printmode,$/;"	f
+strdup	lib/libcompat.h	112;"	d
+strdup	lib/strdup.c	/^char *strdup(const char *str CK_ATTRIBUTE_UNUSED)$/;"	f
+string_encode	checkmk/checkmk	/^function string_encode(raw)$/;"	f
+strsignal	lib/strsignal.c	/^const char *strsignal(int sig)$/;"	f
+sub_ch_setup_dual_1	tests/check_check_fixture.c	/^static void sub_ch_setup_dual_1(void)$/;"	f	file:
+sub_ch_setup_dual_2	tests/check_check_fixture.c	/^static void sub_ch_setup_dual_2(void)$/;"	f	file:
+sub_ch_setup_norm	tests/check_check_fixture.c	/^static void sub_ch_setup_norm (void)$/;"	f	file:
+sub_ch_teardown_dual_1	tests/check_check_fixture.c	/^static void sub_ch_teardown_dual_1(void)$/;"	f	file:
+sub_ch_teardown_dual_2	tests/check_check_fixture.c	/^static void sub_ch_teardown_dual_2(void)$/;"	f	file:
+sub_ch_teardown_norm	tests/check_check_fixture.c	/^static void sub_ch_teardown_norm(void)$/;"	f	file:
+sub_nfailed	tests/check_check_master.c	/^int sub_nfailed;$/;"	v
+sub_ntests	tests/check_check_master.c	/^int sub_ntests;$/;"	v
+subdir	Makefile	/^subdir = .$/;"	m
+subdir	checkmk/Makefile	/^subdir = checkmk$/;"	m
+subdir	doc/Makefile	/^subdir = doc$/;"	m
+subdir	lib/Makefile	/^subdir = lib$/;"	m
+subdir	src/Makefile	/^subdir = src$/;"	m
+subdir	tests/Makefile	/^subdir = tests$/;"	m
+subunit_lfun	src/check_log.c	/^void subunit_lfun(SRunner * sr, FILE * file, enum print_output printmode,$/;"	f
+suite_add_tcase	src/check.c	/^void suite_add_tcase(Suite * s, TCase * tc)$/;"	f
+suite_create	src/check.c	/^Suite *suite_create(const char *name)$/;"	f
+suite_free	src/check.c	/^static void suite_free(Suite * s)$/;"	f	file:
+suite_tcase	src/check.c	/^int suite_tcase(Suite * s, const char *tcname)$/;"	f
+suite_var_name	checkmk/checkmk	/^function suite_var_name(num)$/;"	f
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	checkmk/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	doc/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	lib/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	tests/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tap_fname	src/check_impl.h	/^    const char *tap_fname;      \/* name of tap output file *\/$/;"	m	struct:SRunner
+tap_lfun	src/check_log.c	/^void tap_lfun(SRunner * sr CK_ATTRIBUTE_UNUSED, FILE * file,$/;"	f
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzma -9 -c >$(distdir).tar.lzma$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	checkmk/Makefile	/^target_alias = $/;"	m
+target_alias	doc/Makefile	/^target_alias = $/;"	m
+target_alias	lib/Makefile	/^target_alias = $/;"	m
+target_alias	src/Makefile	/^target_alias = $/;"	m
+target_alias	tests/Makefile	/^target_alias = $/;"	m
+tc	tests/check_nofork.c	/^TCase *tc;$/;"	v
+tc	tests/check_stress.c	/^TCase *tc;$/;"	v
+tc	tests/check_thread_stress.c	/^TCase *tc;$/;"	v
+tcase_add_checked_fixture	src/check.c	/^void tcase_add_checked_fixture(TCase * tc, SFun setup, SFun teardown)$/;"	f
+tcase_add_exit_test	src/check.h	209;"	d
+tcase_add_fixture	src/check.c	/^static void tcase_add_fixture(TCase * tc, SFun setup, SFun teardown,$/;"	f	file:
+tcase_add_loop_exit_test	src/check.h	268;"	d
+tcase_add_loop_test	src/check.h	226;"	d
+tcase_add_loop_test_raise_signal	src/check.h	247;"	d
+tcase_add_test	src/check.h	180;"	d
+tcase_add_test_raise_signal	src/check.h	194;"	d
+tcase_add_unchecked_fixture	src/check.c	/^void tcase_add_unchecked_fixture(TCase * tc, SFun setup, SFun teardown)$/;"	f
+tcase_create	src/check.c	/^TCase *tcase_create(const char *name)$/;"	f
+tcase_fn_start	src/check.c	/^void tcase_fn_start(const char *fname CK_ATTRIBUTE_UNUSED, const char *file,$/;"	f
+tcase_free	src/check.c	/^static void tcase_free(TCase * tc)$/;"	f	file:
+tcase_run_checked_setup	src/check_run.c	/^static TestResult *tcase_run_checked_setup(SRunner * sr, TCase * tc)$/;"	f	file:
+tcase_run_checked_teardown	src/check_run.c	/^static void tcase_run_checked_teardown(TCase * tc)$/;"	f	file:
+tcase_run_tfun_fork	src/check_run.c	/^static TestResult *tcase_run_tfun_fork(SRunner * sr, TCase * tc, TF * tfun,$/;"	f	file:
+tcase_run_tfun_nofork	src/check_run.c	/^static TestResult *tcase_run_tfun_nofork(SRunner * sr, TCase * tc, TF * tfun,$/;"	f	file:
+tcase_set_timeout	src/check.c	/^void tcase_set_timeout(TCase * tc, double timeout)$/;"	f
+tcase_var_name	checkmk/checkmk	/^function tcase_var_name(snum, tcnum)$/;"	f
+tclst	src/check_impl.h	/^    List *tclst;                \/* List of test cases *\/$/;"	m	struct:Suite
+tcname	src/check_impl.h	/^    const char *tcname;         \/* Test case that generated the result *\/$/;"	m	struct:TestResult
+tcname	tests/check_check_master.c	/^  const char *tcname;$/;"	m	struct:__anon3	file:
+teardown	doc/example/tests/check_money.7.c	/^void teardown(void)$/;"	f
+teardown	doc/example/tests/check_money.c	/^void teardown(void)$/;"	f
+teardown_fixture	tests/check_check_fixture.c	/^void teardown_fixture (void)$/;"	f
+teardown_messaging	src/check_msg.c	/^void teardown_messaging(void)$/;"	f
+teardown_pipe	src/check_msg.c	/^static void teardown_pipe(void)$/;"	f	file:
+teardown_sub_fail	tests/check_check_fixture.c	/^static void teardown_sub_fail (void)$/;"	f	file:
+teardown_sub_signal	tests/check_check_fixture.c	/^static void teardown_sub_signal(void)$/;"	f	file:
+test_file	src/check_pack.h	/^    char *test_file;$/;"	m	struct:RcvMsg
+test_fixture_setup	tests/check_check_master.c	/^static void test_fixture_setup(void)$/;"	f	file:
+test_fixture_teardown	tests/check_check_master.c	/^static void test_fixture_teardown (void)$/;"	f	file:
+test_fixture_val	tests/check_check_master.c	/^int test_fixture_val = 0;$/;"	v
+test_line	src/check_pack.h	/^    int test_line;$/;"	m	struct:RcvMsg
+test_log_output	tests/test_log_output.sh	/^test_log_output ( ) {$/;"	f
+test_output	tests/test_output.sh	/^test_output ( ) {$/;"	f
+test_post	checkmk/checkmk	/^function test_post()$/;"	f
+test_pre	checkmk/checkmk	/^function test_pre()$/;"	f
+test_result	src/check.h	/^enum test_result$/;"	g
+test_tap_output	tests/test_tap_output.sh	/^test_tap_output ( ) {$/;"	f
+test_tc11_executed	tests/check_check_selective.c	/^static int test_tc11_executed;$/;"	v	file:
+test_tc12_executed	tests/check_check_selective.c	/^static int test_tc12_executed;$/;"	v	file:
+test_tc21_executed	tests/check_check_selective.c	/^static int test_tc21_executed;$/;"	v	file:
+testval_down	tests/check_check_fixture.c	/^int testval_down;$/;"	v
+testval_up	tests/check_check_fixture.c	/^int testval_up;$/;"	v
+tf_type	src/check_run.c	/^enum tf_type$/;"	g	file:
+tflst	src/check_impl.h	/^    List *tflst;                \/* list of test functions *\/$/;"	m	struct:TCase
+timeout	src/check_impl.h	/^    struct timespec timeout;$/;"	m	struct:TCase	typeref:struct:TCase::timespec
+timer_create	lib/timer_create.c	/^int timer_create(clockid_t clockid CK_ATTRIBUTE_UNUSED,$/;"	f
+timer_delete	lib/timer_delete.c	/^int timer_delete(timer_t timerid CK_ATTRIBUTE_UNUSED)$/;"	f
+timer_settime	lib/timer_settime.c	/^int timer_settime(timer_t timerid CK_ATTRIBUTE_UNUSED,$/;"	f
+timespec	lib/libcompat.h	/^struct timespec$/;"	s
+tname	src/check_impl.h	/^    const char *tname;          \/* Test that generated the result *\/$/;"	m	struct:TestResult
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	checkmk/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	doc/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	lib/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	tests/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_builddir	checkmk/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	doc/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	lib/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	src/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	tests/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	checkmk/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	doc/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	lib/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	src/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	tests/Makefile	/^top_srcdir = ..$/;"	m
+tr_all_array	tests/check_check_master.c	/^TestResult **tr_all_array;$/;"	v
+tr_create	src/check.c	/^TestResult *tr_create(void)$/;"	f
+tr_ctx	src/check.c	/^enum ck_result_ctx tr_ctx(TestResult * tr)$/;"	f
+tr_fail_array	tests/check_check_master.c	/^TestResult **tr_fail_array;$/;"	v
+tr_fprint	src/check_print.c	/^void tr_fprint(FILE * file, TestResult * tr, enum print_output print_mode)$/;"	f
+tr_free	src/check.c	/^void tr_free(TestResult * tr)$/;"	f
+tr_init	src/check.c	/^static void tr_init(TestResult * tr)$/;"	f	file:
+tr_lfile	src/check.c	/^const char *tr_lfile(TestResult * tr)$/;"	f
+tr_lno	src/check.c	/^int tr_lno(TestResult * tr)$/;"	f
+tr_msg	src/check.c	/^const char *tr_msg(TestResult * tr)$/;"	f
+tr_rtype	src/check.c	/^int tr_rtype(TestResult * tr)$/;"	f
+tr_set_loc_by_ctx	src/check_msg.c	/^static void tr_set_loc_by_ctx(TestResult * tr, enum ck_result_ctx ctx,$/;"	f	file:
+tr_short_str	src/check_str.c	/^char *tr_short_str(TestResult * tr)$/;"	f
+tr_str	src/check_str.c	/^char *tr_str(TestResult * tr)$/;"	f
+tr_tcname	src/check.c	/^const char *tr_tcname(TestResult * tr)$/;"	f
+tr_type_str	src/check_str.c	/^static const char *tr_type_str(TestResult * tr)$/;"	f	file:
+tr_xmlprint	src/check_print.c	/^void tr_xmlprint(FILE * file, TestResult * tr,$/;"	f
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	checkmk/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	doc/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	lib/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	src/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	tests/Makefile	/^transform = $(program_transform_name)$/;"	m
+tv_nsec	lib/libcompat.h	/^    long tv_nsec;$/;"	m	struct:timespec
+tv_sec	lib/libcompat.h	/^    time_t tv_sec;$/;"	m	struct:timespec
+unch_sflst	src/check_impl.h	/^    List *unch_sflst;$/;"	m	struct:TCase
+unch_tflst	src/check_impl.h	/^    List *unch_tflst;$/;"	m	struct:TCase
+upack	src/check_pack.c	/^int upack(char *buf, CheckMsg * msg, enum ck_msg_type *type)$/;"	f
+upack_ctx	src/check_pack.c	/^static void upack_ctx(char **buf, CtxMsg * cmsg)$/;"	f	file:
+upack_duration	src/check_pack.c	/^static void upack_duration(char **buf, DurationMsg * cmsg)$/;"	f	file:
+upack_fail	src/check_pack.c	/^static void upack_fail(char **buf, FailMsg * fmsg)$/;"	f	file:
+upack_int	src/check_pack.c	/^static int upack_int(char **buf)$/;"	f	file:
+upack_loc	src/check_pack.c	/^static void upack_loc(char **buf, LocMsg * lmsg)$/;"	f	file:
+upack_str	src/check_pack.c	/^static char *upack_str(char **buf)$/;"	f	file:
+upack_type	src/check_pack.c	/^static enum ck_msg_type upack_type(char **buf)$/;"	f	file:
+upftab	src/check_pack.c	/^static upfun upftab[] = {$/;"	v	file:
+upfun	src/check_pack.c	/^typedef void (*upfun) (char **, CheckMsg *);$/;"	t	file:
+vasprintf	lib/snprintf.c	214;"	d	file:
+vasprintf	lib/snprintf.c	275;"	d	file:
+vsnprintf	lib/libcompat.h	196;"	d
+vsnprintf	lib/snprintf.c	208;"	d	file:
+vsnprintf	lib/snprintf.c	273;"	d	file:
+waserror	src/check_run.c	/^static int waserror(int status, int signal_expected)$/;"	f	file:
+xml_fname	src/check_impl.h	/^    const char *xml_fname;      \/* name of xml output file *\/$/;"	m	struct:SRunner
+xml_lfun	src/check_log.c	/^void xml_lfun(SRunner * sr CK_ATTRIBUTE_UNUSED, FILE * file,$/;"	f

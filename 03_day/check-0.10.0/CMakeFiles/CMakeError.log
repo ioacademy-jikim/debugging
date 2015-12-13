@@ -1,0 +1,239 @@
+Determining if the function _getpid exists failed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec933934426/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec933934426.dir/build.make CMakeFiles/cmTryCompileExec933934426.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec933934426.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_getpid   -o CMakeFiles/cmTryCompileExec933934426.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec933934426
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec933934426.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_getpid    CMakeFiles/cmTryCompileExec933934426.dir/CheckFunctionExists.c.o  -o cmTryCompileExec933934426 -rdynamic 
+CMakeFiles/cmTryCompileExec933934426.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `_getpid'
+CMakeFiles/cmTryCompileExec933934426.dir/build.make:88: recipe for target 'cmTryCompileExec933934426' failed
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec933934426/fast' failed
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec933934426] Error 1
+make: *** [cmTryCompileExec933934426/fast] Error 2
+
+
+Determining if the function _strdup exists failed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1833235119/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1833235119.dir/build.make CMakeFiles/cmTryCompileExec1833235119.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1833235119.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup   -o CMakeFiles/cmTryCompileExec1833235119.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1833235119
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1833235119.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup    CMakeFiles/cmTryCompileExec1833235119.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1833235119 -rdynamic 
+CMakeFiles/cmTryCompileExec1833235119.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `_strdup'
+CMakeFiles/cmTryCompileExec1833235119.dir/build.make:88: recipe for target 'cmTryCompileExec1833235119' failed
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec1833235119/fast' failed
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1833235119] Error 1
+make: *** [cmTryCompileExec1833235119/fast] Error 2
+
+
+Determining if the function vasnprintf exists failed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1126057872/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1126057872.dir/build.make CMakeFiles/cmTryCompileExec1126057872.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1126057872.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vasnprintf   -o CMakeFiles/cmTryCompileExec1126057872.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1126057872
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1126057872.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vasnprintf    CMakeFiles/cmTryCompileExec1126057872.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1126057872 -rdynamic 
+CMakeFiles/cmTryCompileExec1126057872.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x12): undefined reference to `vasnprintf'
+CMakeFiles/cmTryCompileExec1126057872.dir/build.make:88: recipe for target 'cmTryCompileExec1126057872' failed
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec1126057872/fast' failed
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1126057872] Error 1
+make: *** [cmTryCompileExec1126057872/fast] Error 2
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4096802797/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4096802797.dir/build.make CMakeFiles/cmTryCompileExec4096802797.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4096802797.dir/__INT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4096802797.dir/__INT64.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/__INT64.c
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/__INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/__INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec4096802797.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4096802797.dir/__INT64.c.o' failed
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4096802797.dir/__INT64.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec4096802797/fast' failed
+make: *** [cmTryCompileExec4096802797/fast] Error 2
+
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/__INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2366674278/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2366674278.dir/build.make CMakeFiles/cmTryCompileExec2366674278.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2366674278.dir/UNSIGNED___INT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2366674278.dir/UNSIGNED___INT64.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec2366674278.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2366674278.dir/UNSIGNED___INT64.c.o' failed
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2366674278.dir/UNSIGNED___INT64.c.o] Error 1
+Makefile:117: recipe for target 'cmTryCompileExec2366674278/fast' failed
+make: *** [cmTryCompileExec2366674278/fast] Error 2
+
+/root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function subunit_test_start exists in the subunit failed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec699303081/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec699303081.dir/build.make CMakeFiles/cmTryCompileExec699303081.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec699303081.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=subunit_test_start   -o CMakeFiles/cmTryCompileExec699303081.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec699303081
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec699303081.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=subunit_test_start    CMakeFiles/cmTryCompileExec699303081.dir/CheckFunctionExists.c.o  -o cmTryCompileExec699303081 -rdynamic -lsubunit 
+/usr/bin/ld: cannot find -lsubunit
+CMakeFiles/cmTryCompileExec699303081.dir/build.make:88: recipe for target 'cmTryCompileExec699303081' failed
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+Makefile:117: recipe for target 'cmTryCompileExec699303081/fast' failed
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec699303081] Error 1
+make: *** [cmTryCompileExec699303081/fast] Error 2
+
+

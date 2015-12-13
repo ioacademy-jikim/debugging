@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2015-12-08 19:41:43</datetime>
+  <suite>
+    <title>Log</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:41</fn>
+      <id>test_set_log</id>
+      <iteration>0</iteration>
+      <duration>0.000017</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:73</fn>
+      <id>test_set_log_env</id>
+      <iteration>0</iteration>
+      <duration>0.000028</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:86</fn>
+      <id>test_no_set_log</id>
+      <iteration>0</iteration>
+      <duration>0.000014</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:101</fn>
+      <id>test_double_set_log</id>
+      <iteration>0</iteration>
+      <duration>0.000017</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:117</fn>
+      <id>test_set_xml</id>
+      <iteration>0</iteration>
+      <duration>0.000017</duration>
+      <description>Core XML</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:149</fn>
+      <id>test_set_xml_env</id>
+      <iteration>0</iteration>
+      <duration>0.000028</duration>
+      <description>Core XML</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:162</fn>
+      <id>test_no_set_xml</id>
+      <iteration>0</iteration>
+      <duration>0.000013</duration>
+      <description>Core XML</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:177</fn>
+      <id>test_double_set_xml</id>
+      <iteration>0</iteration>
+      <duration>0.000014</duration>
+      <description>Core XML</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:192</fn>
+      <id>test_set_tap</id>
+      <iteration>0</iteration>
+      <duration>0.000016</duration>
+      <description>Core TAP</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:224</fn>
+      <id>test_set_tap_env</id>
+      <iteration>0</iteration>
+      <duration>0.000026</duration>
+      <description>Core TAP</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:237</fn>
+      <id>test_no_set_tap</id>
+      <iteration>0</iteration>
+      <duration>0.000015</duration>
+      <description>Core TAP</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_log.c:252</fn>
+      <id>test_double_set_tap</id>
+      <iteration>0</iteration>
+      <duration>0.000013</duration>
+      <description>Core TAP</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <suite>
+    <title>Fork</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_fork.c:76</fn>
+      <id>test_default_fork</id>
+      <iteration>0</iteration>
+      <duration>0.000013</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_fork.c:88</fn>
+      <id>test_set_nofork</id>
+      <iteration>0</iteration>
+      <duration>0.000012</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_fork.c:102</fn>
+      <id>test_set_fork</id>
+      <iteration>0</iteration>
+      <duration>0.000114</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_fork.c:111</fn>
+      <id>test_env</id>
+      <iteration>0</iteration>
+      <duration>0.000019</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_fork.c:121</fn>
+      <id>test_env_and_set</id>
+      <iteration>0</iteration>
+      <duration>0.000016</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_fork.c:129</fn>
+      <id>test_nofork</id>
+      <iteration>0</iteration>
+      <duration>0.000010</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <suite>
+    <title>Exit</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:11</fn>
+      <id>test_early_exit_normal</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:18</fn>
+      <id>test_early_exit_with_allowed_error</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:25</fn>
+      <id>loop_early_exit_normal</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:25</fn>
+      <id>loop_early_exit_normal</id>
+      <iteration>1</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:25</fn>
+      <id>loop_early_exit_normal</id>
+      <iteration>2</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:25</fn>
+      <id>loop_early_exit_normal</id>
+      <iteration>3</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:25</fn>
+      <id>loop_early_exit_normal</id>
+      <iteration>4</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:32</fn>
+      <id>loop_early_exit_allowed_exit</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:32</fn>
+      <id>loop_early_exit_allowed_exit</id>
+      <iteration>1</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:32</fn>
+      <id>loop_early_exit_allowed_exit</id>
+      <iteration>2</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:32</fn>
+      <id>loop_early_exit_allowed_exit</id>
+      <iteration>3</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:32</fn>
+      <id>loop_early_exit_allowed_exit</id>
+      <iteration>4</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:39</fn>
+      <id>loop_early_exit_signal_segv</id>
+      <iteration>0</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:39</fn>
+      <id>loop_early_exit_signal_segv</id>
+      <iteration>1</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:39</fn>
+      <id>loop_early_exit_signal_segv</id>
+      <iteration>2</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:39</fn>
+      <id>loop_early_exit_signal_segv</id>
+      <iteration>3</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_exit.c:39</fn>
+      <id>loop_early_exit_signal_segv</id>
+      <iteration>4</iteration>
+      <duration>-1.000000</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <suite>
+    <title>SelectiveTesting</title>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:86</fn>
+      <id>test_srunner_run_run_all</id>
+      <iteration>0</iteration>
+      <duration>0.000213</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:104</fn>
+      <id>test_srunner_run_suite</id>
+      <iteration>0</iteration>
+      <duration>0.000133</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:122</fn>
+      <id>test_srunner_run_no_suite</id>
+      <iteration>0</iteration>
+      <duration>0.000392</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:140</fn>
+      <id>test_srunner_run_tcase</id>
+      <iteration>0</iteration>
+      <duration>0.000777</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:158</fn>
+      <id>test_srunner_no_tcase</id>
+      <iteration>0</iteration>
+      <duration>0.000372</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:176</fn>
+      <id>test_srunner_suite_tcase</id>
+      <iteration>0</iteration>
+      <duration>0.000823</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:194</fn>
+      <id>test_srunner_suite_no_tcase</id>
+      <iteration>0</iteration>
+      <duration>0.000327</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:212</fn>
+      <id>test_srunner_run_suite_env</id>
+      <iteration>0</iteration>
+      <duration>0.000943</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:229</fn>
+      <id>test_srunner_run_no_suite_env</id>
+      <iteration>0</iteration>
+      <duration>0.000366</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:246</fn>
+      <id>test_srunner_run_tcase_env</id>
+      <iteration>0</iteration>
+      <duration>0.000777</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:263</fn>
+      <id>test_srunner_no_tcase_env</id>
+      <iteration>0</iteration>
+      <duration>0.000336</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:281</fn>
+      <id>test_srunner_suite_tcase_env</id>
+      <iteration>0</iteration>
+      <duration>0.000760</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>check_check_selective.c:300</fn>
+      <id>test_srunner_suite_no_tcase_env</id>
+      <iteration>0</iteration>
+      <duration>0.000351</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>6.842874</duration>
+</testsuites>

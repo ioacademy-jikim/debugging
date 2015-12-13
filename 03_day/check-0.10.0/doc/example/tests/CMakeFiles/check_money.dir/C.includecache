@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/05_day/check-0.10.0/doc/example/src/money.h
+
+/root/05_day/check-0.10.0/doc/example/tests/check_money.c
+config.h
+-
+stdlib.h
+-
+stdint.h
+-
+check.h
+-
+../src/money.h
+/root/05_day/check-0.10.0/doc/example/src/money.h
+
+config.h
+

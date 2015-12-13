@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/05_day/check-0.10.0/doc/example/src/main.c
+money.h
+/root/05_day/check-0.10.0/doc/example/src/money.h
+
+/root/05_day/check-0.10.0/doc/example/src/money.h
+

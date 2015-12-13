@@ -1,0 +1,54 @@
+Running suite Log
+check_check_log.c:41:P:Core:test_set_log:0: Passed
+check_check_log.c:73:P:Core:test_set_log_env:0: Passed
+check_check_log.c:86:P:Core:test_no_set_log:0: Passed
+check_check_log.c:101:P:Core:test_double_set_log:0: Passed
+check_check_log.c:117:P:Core XML:test_set_xml:0: Passed
+check_check_log.c:149:P:Core XML:test_set_xml_env:0: Passed
+check_check_log.c:162:P:Core XML:test_no_set_xml:0: Passed
+check_check_log.c:177:P:Core XML:test_double_set_xml:0: Passed
+check_check_log.c:192:P:Core TAP:test_set_tap:0: Passed
+check_check_log.c:224:P:Core TAP:test_set_tap_env:0: Passed
+check_check_log.c:237:P:Core TAP:test_no_set_tap:0: Passed
+check_check_log.c:252:P:Core TAP:test_double_set_tap:0: Passed
+Running suite Fork
+check_check_fork.c:76:P:Core:test_default_fork:0: Passed
+check_check_fork.c:88:P:Core:test_set_nofork:0: Passed
+check_check_fork.c:102:P:Core:test_set_fork:0: Passed
+check_check_fork.c:111:P:Core:test_env:0: Passed
+check_check_fork.c:121:P:Core:test_env_and_set:0: Passed
+check_check_fork.c:129:P:Core:test_nofork:0: Passed
+Running suite Exit
+check_check_exit.c:11:P:Core:test_early_exit_normal:0: Passed
+check_check_exit.c:18:P:Core:test_early_exit_with_allowed_error:0: Passed
+check_check_exit.c:25:P:Core:loop_early_exit_normal:0: Passed
+check_check_exit.c:25:P:Core:loop_early_exit_normal:1: Passed
+check_check_exit.c:25:P:Core:loop_early_exit_normal:2: Passed
+check_check_exit.c:25:P:Core:loop_early_exit_normal:3: Passed
+check_check_exit.c:25:P:Core:loop_early_exit_normal:4: Passed
+check_check_exit.c:32:P:Core:loop_early_exit_allowed_exit:0: Passed
+check_check_exit.c:32:P:Core:loop_early_exit_allowed_exit:1: Passed
+check_check_exit.c:32:P:Core:loop_early_exit_allowed_exit:2: Passed
+check_check_exit.c:32:P:Core:loop_early_exit_allowed_exit:3: Passed
+check_check_exit.c:32:P:Core:loop_early_exit_allowed_exit:4: Passed
+check_check_exit.c:39:P:Core:loop_early_exit_signal_segv:0: Passed
+check_check_exit.c:39:P:Core:loop_early_exit_signal_segv:1: Passed
+check_check_exit.c:39:P:Core:loop_early_exit_signal_segv:2: Passed
+check_check_exit.c:39:P:Core:loop_early_exit_signal_segv:3: Passed
+check_check_exit.c:39:P:Core:loop_early_exit_signal_segv:4: Passed
+Running suite SelectiveTesting
+check_check_selective.c:86:P:Core:test_srunner_run_run_all:0: Passed
+check_check_selective.c:104:P:Core:test_srunner_run_suite:0: Passed
+check_check_selective.c:122:P:Core:test_srunner_run_no_suite:0: Passed
+check_check_selective.c:140:P:Core:test_srunner_run_tcase:0: Passed
+check_check_selective.c:158:P:Core:test_srunner_no_tcase:0: Passed
+check_check_selective.c:176:P:Core:test_srunner_suite_tcase:0: Passed
+check_check_selective.c:194:P:Core:test_srunner_suite_no_tcase:0: Passed
+check_check_selective.c:212:P:Core:test_srunner_run_suite_env:0: Passed
+check_check_selective.c:229:P:Core:test_srunner_run_no_suite_env:0: Passed
+check_check_selective.c:246:P:Core:test_srunner_run_tcase_env:0: Passed
+check_check_selective.c:263:P:Core:test_srunner_no_tcase_env:0: Passed
+check_check_selective.c:281:P:Core:test_srunner_suite_tcase_env:0: Passed
+check_check_selective.c:300:P:Core:test_srunner_suite_no_tcase_env:0: Passed
+Results for all suites run:
+100%: Checks: 48, Failures: 0, Errors: 0

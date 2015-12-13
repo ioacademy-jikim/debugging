@@ -1,0 +1,21 @@
+# makefile2
+# 컴파일러와 옵션도 변수로 처리
+
+INCPATH=./include
+CC=cc
+CFLAGS=-Wall -I$(INCPATH)
+
+app : main.o foo.o goo.o
+	$(CC) $(CFLAGS) -o app main.o foo.o goo.o
+
+main.o : main.c $(INCPATH)/foo.h $(INCPATH)/goo.h
+	$(CC) $(CFLAGS) -c main.c
+		
+foo.o : foo.c $(INCPATH)/foo.h
+	$(CC) $(CFLAGS) -c foo.c
+
+goo.o : goo.c $(INCPATH)/goo.h
+	$(CC) $(CFLAGS) -c goo.c
+
+
+

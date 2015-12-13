@@ -1,0 +1,11 @@
+# makefile 1
+
+# make  로 실행하면 아무것도 안됨을 설명
+# make foo  로 실행할것
+
+# for each  xxxxx.o target there must be a xxxxx.c dependency to build.
+
+.c.o:	
+	cc -c $< -I.
+
+	

@@ -1,0 +1,15 @@
+# makefile3
+
+# 아래 코드를 사용해 보고
+# 문제점은 각 헤더에 dependecy 임을 이야기 하고
+# makefile4를 수업.
+
+.c.o: 
+	@echo "Compiling" $< "..."
+	cc -c $< -I.
+
+app: main.o foo.o goo.o
+	@echo "Building target" $@ "..." 
+	cc -o app main.o foo.o goo.o
+
+#problem dependency

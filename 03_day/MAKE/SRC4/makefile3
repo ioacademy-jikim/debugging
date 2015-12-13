@@ -1,0 +1,27 @@
+# makefile3
+# all 지시어에서 getobj app putobj가 추가된것을 설명
+
+INCPATH=./include
+OBJPATH=./obj
+CC=cc
+CFLAGS=-Wall -I$(INCPATH)
+
+all: getobj app putobj
+
+app : main.o foo.o goo.o
+	$(CC) $(CFLAGS) -o app main.o foo.o goo.o
+
+main.o : main.c $(INCPATH)/foo.h $(INCPATH)/goo.h
+	$(CC) $(CFLAGS) -c main.c
+		
+foo.o : foo.c $(INCPATH)/foo.h
+	$(CC) $(CFLAGS) -c foo.c
+
+goo.o : goo.c $(INCPATH)/goo.h
+	$(CC) $(CFLAGS) -c goo.c
+
+putobj:
+	-mv *.o $(OBJPATH) 2>/dev/null
+
+getobj:
+	-mv $(OBJPATH)/*.o . 2>/dev/null

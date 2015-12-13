@@ -1,0 +1,1227 @@
+The system is: Linux - 4.2.0-16-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/05_day/check-0.10.0/CMakeFiles/3.2.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4129181455/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4129181455.dir/build.make CMakeFiles/cmTryCompileExec4129181455.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4129181455.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4129181455.dir/testCCompiler.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4129181455
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4129181455.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4129181455.dir/testCCompiler.c.o  -o cmTryCompileExec4129181455 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3292587490/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3292587490.dir/build.make CMakeFiles/cmTryCompileExec3292587490.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3292587490
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3292587490.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3292587490 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper
+Target: i686-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+Thread model: posix
+gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3292587490' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRfpRmD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3292587490 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3292587490/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3292587490.dir/build.make CMakeFiles/cmTryCompileExec3292587490.dir/build]
+  ignore line: [make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3292587490]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3292587490.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3292587490 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: i686-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.2.1-22ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.1 20151010 (Ubuntu 5.2.1-22ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3292587490' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRfpRmD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec3292587490 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRfpRmD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3292587490] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/5] ==> dir [/usr/lib/gcc/i686-linux-gnu/5]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTryCompileExec3292587490.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5] ==> [/usr/lib/gcc/i686-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/5;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3687536007/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3687536007.dir/build.make CMakeFiles/cmTryCompileExec3687536007.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3687536007.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3687536007.dir/feature_tests.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3687536007
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3687536007.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3687536007.dir/feature_tests.c.o  -o cmTryCompileExec3687536007 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1805067745/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1805067745.dir/build.make CMakeFiles/cmTryCompileExec1805067745.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1805067745.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1805067745.dir/feature_tests.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1805067745
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1805067745.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1805067745.dir/feature_tests.c.o  -o cmTryCompileExec1805067745 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1183171933/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1183171933.dir/build.make CMakeFiles/cmTryCompileExec1183171933.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1183171933.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec1183171933.dir/feature_tests.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1183171933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1183171933.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1183171933.dir/feature_tests.c.o  -o cmTryCompileExec1183171933 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if files ;sys/types.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec378363614/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec378363614.dir/build.make CMakeFiles/cmTryCompileExec378363614.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec378363614.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec378363614.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec378363614
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec378363614.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec378363614.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec378363614 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2673384362/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2673384362.dir/build.make CMakeFiles/cmTryCompileExec2673384362.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2673384362.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2673384362.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2673384362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2673384362.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2673384362.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2673384362 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3970661679/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3970661679.dir/build.make CMakeFiles/cmTryCompileExec3970661679.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3970661679.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3970661679.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3970661679
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3970661679.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3970661679.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3970661679 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3021075812/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3021075812.dir/build.make CMakeFiles/cmTryCompileExec3021075812.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3021075812.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3021075812.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3021075812
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3021075812.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3021075812.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3021075812 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;signal.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1289635145/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1289635145.dir/build.make CMakeFiles/cmTryCompileExec1289635145.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1289635145.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1289635145.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1289635145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1289635145.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1289635145.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1289635145 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;signal.h;stdarg.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec578516561/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec578516561.dir/build.make CMakeFiles/cmTryCompileExec578516561.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec578516561.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec578516561.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec578516561
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec578516561.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec578516561.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec578516561 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;signal.h;stdarg.h;stdint.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1945986304/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1945986304.dir/build.make CMakeFiles/cmTryCompileExec1945986304.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1945986304.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1945986304.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1945986304
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1945986304.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1945986304.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1945986304 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;signal.h;stdarg.h;stdint.h;stdlib.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3004332410/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3004332410.dir/build.make CMakeFiles/cmTryCompileExec3004332410.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3004332410.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3004332410.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3004332410
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3004332410.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3004332410.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3004332410 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3539580785/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3539580785.dir/build.make CMakeFiles/cmTryCompileExec3539580785.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3539580785.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3539580785.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3539580785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3539580785.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3539580785.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3539580785 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3923258589/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3923258589.dir/build.make CMakeFiles/cmTryCompileExec3923258589.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3923258589.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3923258589.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3923258589
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3923258589.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3923258589.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3923258589 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/time.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3979150105/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3979150105.dir/build.make CMakeFiles/cmTryCompileExec3979150105.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3979150105.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3979150105.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3979150105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3979150105.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3979150105.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3979150105 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/time.h;time.h exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2130032713/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2130032713.dir/build.make CMakeFiles/cmTryCompileExec2130032713.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2130032713.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2130032713.dir/CheckIncludeFiles.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2130032713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2130032713.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2130032713.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2130032713 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2991920443/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2991920443.dir/build.make CMakeFiles/cmTryCompileExec2991920443.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2991920443.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTryCompileExec2991920443.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2991920443
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2991920443.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork    CMakeFiles/cmTryCompileExec2991920443.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2991920443 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getline exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4261529644/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4261529644.dir/build.make CMakeFiles/cmTryCompileExec4261529644.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4261529644.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getline   -o CMakeFiles/cmTryCompileExec4261529644.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4261529644
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4261529644.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getline    CMakeFiles/cmTryCompileExec4261529644.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4261529644 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1791115317/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1791115317.dir/build.make CMakeFiles/cmTryCompileExec1791115317.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1791115317.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpid   -o CMakeFiles/cmTryCompileExec1791115317.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1791115317
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1791115317.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpid    CMakeFiles/cmTryCompileExec1791115317.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1791115317 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3438795873/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3438795873.dir/build.make CMakeFiles/cmTryCompileExec3438795873.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3438795873.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec3438795873.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3438795873
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3438795873.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTryCompileExec3438795873.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3438795873 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3492898859/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3492898859.dir/build.make CMakeFiles/cmTryCompileExec3492898859.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3492898859.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r   -o CMakeFiles/cmTryCompileExec3492898859.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3492898859
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3492898859.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_r    CMakeFiles/cmTryCompileExec3492898859.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3492898859 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3719372012/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3719372012.dir/build.make CMakeFiles/cmTryCompileExec3719372012.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3719372012.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTryCompileExec3719372012.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3719372012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3719372012.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTryCompileExec3719372012.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3719372012 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1132081326/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1132081326.dir/build.make CMakeFiles/cmTryCompileExec1132081326.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1132081326.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTryCompileExec1132081326.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1132081326
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1132081326.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTryCompileExec1132081326.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1132081326 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3831898359/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3831898359.dir/build.make CMakeFiles/cmTryCompileExec3831898359.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3831898359.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTryCompileExec3831898359.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘realloc’
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3831898359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3831898359.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realloc    CMakeFiles/cmTryCompileExec3831898359.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3831898359 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec20063882/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec20063882.dir/build.make CMakeFiles/cmTryCompileExec20063882.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec20063882.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTryCompileExec20063882.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec20063882
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec20063882.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setenv    CMakeFiles/cmTryCompileExec20063882.dir/CheckFunctionExists.c.o  -o cmTryCompileExec20063882 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec427484754/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec427484754.dir/build.make CMakeFiles/cmTryCompileExec427484754.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec427484754.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTryCompileExec427484754.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec427484754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec427484754.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sigaction    CMakeFiles/cmTryCompileExec427484754.dir/CheckFunctionExists.c.o  -o cmTryCompileExec427484754 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4136717266/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4136717266.dir/build.make CMakeFiles/cmTryCompileExec4136717266.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4136717266.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTryCompileExec4136717266.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec4136717266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4136717266.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup    CMakeFiles/cmTryCompileExec4136717266.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4136717266 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2756945245/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2756945245.dir/build.make CMakeFiles/cmTryCompileExec2756945245.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2756945245.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsignal   -o CMakeFiles/cmTryCompileExec2756945245.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2756945245
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2756945245.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsignal    CMakeFiles/cmTryCompileExec2756945245.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2756945245 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2155104054/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2155104054.dir/build.make CMakeFiles/cmTryCompileExec2155104054.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2155104054.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec2155104054.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘snprintf’
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2155104054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2155104054.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTryCompileExec2155104054.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2155104054 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1149282447/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1149282447.dir/build.make CMakeFiles/cmTryCompileExec1149282447.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1149282447.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTryCompileExec1149282447.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1149282447
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1149282447.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTryCompileExec1149282447.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1149282447 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function asprintf exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1313615602/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1313615602.dir/build.make CMakeFiles/cmTryCompileExec1313615602.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1313615602.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=asprintf   -o CMakeFiles/cmTryCompileExec1313615602.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1313615602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1313615602.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=asprintf    CMakeFiles/cmTryCompileExec1313615602.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1313615602 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vasprintf exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3443975755/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3443975755.dir/build.make CMakeFiles/cmTryCompileExec3443975755.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3443975755.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vasprintf   -o CMakeFiles/cmTryCompileExec3443975755.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3443975755
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3443975755.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vasprintf    CMakeFiles/cmTryCompileExec3443975755.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3443975755 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the INT64_MAX exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1265095296/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1265095296.dir/build.make CMakeFiles/cmTryCompileExec1265095296.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1265095296.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1265095296.dir/CheckSymbolExists.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1265095296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1265095296.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1265095296.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1265095296 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+File /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INT64_MAX
+  return ((int*)(&INT64_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the INT64_MIN exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1076406187/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1076406187.dir/build.make CMakeFiles/cmTryCompileExec1076406187.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1076406187.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1076406187.dir/CheckSymbolExists.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1076406187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1076406187.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1076406187.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1076406187 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+File /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INT64_MIN
+  return ((int*)(&INT64_MIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the UINT32_MAX exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1092525847/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1092525847.dir/build.make CMakeFiles/cmTryCompileExec1092525847.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1092525847.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1092525847.dir/CheckSymbolExists.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1092525847
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1092525847.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1092525847.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1092525847 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+File /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef UINT32_MAX
+  return ((int*)(&UINT32_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the UINT64_MAX exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1251146406/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1251146406.dir/build.make CMakeFiles/cmTryCompileExec1251146406.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1251146406.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1251146406.dir/CheckSymbolExists.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1251146406
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1251146406.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1251146406.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1251146406 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+File /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef UINT64_MAX
+  return ((int*)(&UINT64_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIZE_MAX exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1852874050/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1852874050.dir/build.make CMakeFiles/cmTryCompileExec1852874050.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1852874050.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1852874050.dir/CheckSymbolExists.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1852874050
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1852874050.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1852874050.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1852874050 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+File /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIZE_MAX
+  return ((int*)(&SIZE_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SSIZE_MAX exist passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4180319049/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4180319049.dir/build.make CMakeFiles/cmTryCompileExec4180319049.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4180319049.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4180319049.dir/CheckSymbolExists.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4180319049
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4180319049.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4180319049.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4180319049 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+File /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SSIZE_MAX
+  return ((int*)(&SSIZE_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec668673626/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec668673626.dir/build.make CMakeFiles/cmTryCompileExec668673626.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec668673626.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec668673626.dir/CheckIncludeFile.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec668673626
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec668673626.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec668673626.dir/CheckIncludeFile.c.o  -o cmTryCompileExec668673626 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4121177844/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4121177844.dir/build.make CMakeFiles/cmTryCompileExec4121177844.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4121177844.dir/SIZE_OF_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4121177844.dir/SIZE_OF_SHORT.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_OF_SHORT.c
+Linking C executable cmTryCompileExec4121177844
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4121177844.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4121177844.dir/SIZE_OF_SHORT.c.o  -o cmTryCompileExec4121177844 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec883835168/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec883835168.dir/build.make CMakeFiles/cmTryCompileExec883835168.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec883835168.dir/SIZE_OF_INT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec883835168.dir/SIZE_OF_INT.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_OF_INT.c
+Linking C executable cmTryCompileExec883835168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec883835168.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec883835168.dir/SIZE_OF_INT.c.o  -o cmTryCompileExec883835168 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2717462936/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2717462936.dir/build.make CMakeFiles/cmTryCompileExec2717462936.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2717462936.dir/SIZE_OF_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2717462936.dir/SIZE_OF_LONG.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_OF_LONG.c
+Linking C executable cmTryCompileExec2717462936
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2717462936.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2717462936.dir/SIZE_OF_LONG.c.o  -o cmTryCompileExec2717462936 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec133493356/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec133493356.dir/build.make CMakeFiles/cmTryCompileExec133493356.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec133493356.dir/SIZE_OF_LONG_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec133493356.dir/SIZE_OF_LONG_LONG.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_OF_LONG_LONG.c
+Linking C executable cmTryCompileExec133493356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec133493356.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec133493356.dir/SIZE_OF_LONG_LONG.c.o  -o cmTryCompileExec133493356 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec612199919/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec612199919.dir/build.make CMakeFiles/cmTryCompileExec612199919.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec612199919.dir/SIZE_OF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec612199919.dir/SIZE_OF_UNSIGNED_SHORT.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_OF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec612199919
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec612199919.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec612199919.dir/SIZE_OF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec612199919 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3640616159/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3640616159.dir/build.make CMakeFiles/cmTryCompileExec3640616159.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3640616159.dir/SIZE_OF_UNSIGNED.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3640616159.dir/SIZE_OF_UNSIGNED.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_OF_UNSIGNED.c
+Linking C executable cmTryCompileExec3640616159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3640616159.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3640616159.dir/SIZE_OF_UNSIGNED.c.o  -o cmTryCompileExec3640616159 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2113253310/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2113253310.dir/build.make CMakeFiles/cmTryCompileExec2113253310.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2113253310.dir/SIZE_OF_UNSIGNED_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2113253310.dir/SIZE_OF_UNSIGNED_LONG.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_OF_UNSIGNED_LONG.c
+Linking C executable cmTryCompileExec2113253310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2113253310.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2113253310.dir/SIZE_OF_UNSIGNED_LONG.c.o  -o cmTryCompileExec2113253310 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4110569937/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4110569937.dir/build.make CMakeFiles/cmTryCompileExec4110569937.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4110569937.dir/SIZE_OF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4110569937.dir/SIZE_OF_UNSIGNED_LONG_LONG.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_OF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTryCompileExec4110569937
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4110569937.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4110569937.dir/SIZE_OF_UNSIGNED_LONG_LONG.c.o  -o cmTryCompileExec4110569937 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec261779135/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec261779135.dir/build.make CMakeFiles/cmTryCompileExec261779135.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec261779135.dir/INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec261779135.dir/INT16_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/INT16_T.c
+Linking C executable cmTryCompileExec261779135
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec261779135.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec261779135.dir/INT16_T.c.o  -o cmTryCompileExec261779135 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec284754705/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec284754705.dir/build.make CMakeFiles/cmTryCompileExec284754705.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec284754705.dir/INT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec284754705.dir/INT32_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/INT32_T.c
+Linking C executable cmTryCompileExec284754705
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec284754705.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec284754705.dir/INT32_T.c.o  -o cmTryCompileExec284754705 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1952873277/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1952873277.dir/build.make CMakeFiles/cmTryCompileExec1952873277.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1952873277.dir/INT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1952873277.dir/INT64_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/INT64_T.c
+Linking C executable cmTryCompileExec1952873277
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1952873277.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1952873277.dir/INT64_T.c.o  -o cmTryCompileExec1952873277 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1107474049/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1107474049.dir/build.make CMakeFiles/cmTryCompileExec1107474049.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1107474049.dir/INTMAX_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1107474049.dir/INTMAX_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/INTMAX_T.c
+Linking C executable cmTryCompileExec1107474049
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1107474049.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1107474049.dir/INTMAX_T.c.o  -o cmTryCompileExec1107474049 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3361894043/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3361894043.dir/build.make CMakeFiles/cmTryCompileExec3361894043.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3361894043.dir/UINT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3361894043.dir/UINT8_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UINT8_T.c
+Linking C executable cmTryCompileExec3361894043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3361894043.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3361894043.dir/UINT8_T.c.o  -o cmTryCompileExec3361894043 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4069422123/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4069422123.dir/build.make CMakeFiles/cmTryCompileExec4069422123.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4069422123.dir/UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4069422123.dir/UINT16_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UINT16_T.c
+Linking C executable cmTryCompileExec4069422123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4069422123.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4069422123.dir/UINT16_T.c.o  -o cmTryCompileExec4069422123 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1570835359/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1570835359.dir/build.make CMakeFiles/cmTryCompileExec1570835359.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1570835359.dir/UINT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1570835359.dir/UINT32_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UINT32_T.c
+Linking C executable cmTryCompileExec1570835359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1570835359.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1570835359.dir/UINT32_T.c.o  -o cmTryCompileExec1570835359 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1778246094/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1778246094.dir/build.make CMakeFiles/cmTryCompileExec1778246094.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1778246094.dir/UINT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1778246094.dir/UINT64_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UINT64_T.c
+Linking C executable cmTryCompileExec1778246094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1778246094.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1778246094.dir/UINT64_T.c.o  -o cmTryCompileExec1778246094 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of uintmax_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3225238370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3225238370.dir/build.make CMakeFiles/cmTryCompileExec3225238370.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3225238370.dir/UINTMAX_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3225238370.dir/UINTMAX_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/UINTMAX_T.c
+Linking C executable cmTryCompileExec3225238370
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3225238370.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3225238370.dir/UINTMAX_T.c.o  -o cmTryCompileExec3225238370 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of clock_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec139921160/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec139921160.dir/build.make CMakeFiles/cmTryCompileExec139921160.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec139921160.dir/CLOCK_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec139921160.dir/CLOCK_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/CLOCK_T.c
+Linking C executable cmTryCompileExec139921160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec139921160.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec139921160.dir/CLOCK_T.c.o  -o cmTryCompileExec139921160 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of clockid_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3715866857/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3715866857.dir/build.make CMakeFiles/cmTryCompileExec3715866857.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3715866857.dir/CLOCKID_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3715866857.dir/CLOCKID_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/CLOCKID_T.c
+Linking C executable cmTryCompileExec3715866857
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3715866857.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3715866857.dir/CLOCKID_T.c.o  -o cmTryCompileExec3715866857 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec359711517/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec359711517.dir/build.make CMakeFiles/cmTryCompileExec359711517.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec359711517.dir/SIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec359711517.dir/SIZE_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTryCompileExec359711517
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec359711517.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec359711517.dir/SIZE_T.c.o  -o cmTryCompileExec359711517 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec935953619/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec935953619.dir/build.make CMakeFiles/cmTryCompileExec935953619.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec935953619.dir/SSIZE_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec935953619.dir/SSIZE_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/SSIZE_T.c
+Linking C executable cmTryCompileExec935953619
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec935953619.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec935953619.dir/SSIZE_T.c.o  -o cmTryCompileExec935953619 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2908559064/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2908559064.dir/build.make CMakeFiles/cmTryCompileExec2908559064.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2908559064.dir/PID_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2908559064.dir/PID_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/PID_T.c
+Linking C executable cmTryCompileExec2908559064
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2908559064.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2908559064.dir/PID_T.c.o  -o cmTryCompileExec2908559064 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining size of timer_t passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3960929889/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3960929889.dir/build.make CMakeFiles/cmTryCompileExec3960929889.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3960929889.dir/TIMER_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3960929889.dir/TIMER_T.c.o   -c /root/05_day/check-0.10.0/CMakeFiles/CheckTypeSize/TIMER_T.c
+Linking C executable cmTryCompileExec3960929889
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3960929889.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3960929889.dir/TIMER_T.c.o  -o cmTryCompileExec3960929889 -rdynamic 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function floor exists in the m passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3782901291/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3782901291.dir/build.make CMakeFiles/cmTryCompileExec3782901291.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3782901291.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec3782901291.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/share/cmake-3.2/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3782901291
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3782901291.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec3782901291.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3782901291 -rdynamic -lm 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3915259149/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3915259149.dir/build.make CMakeFiles/cmTryCompileExec3915259149.dir/build
+make[1]: Entering directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/05_day/check-0.10.0/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3915259149.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec3915259149.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3915259149
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3915259149.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec3915259149.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3915259149 -rdynamic -lrt 
+make[1]: Leaving directory '/root/05_day/check-0.10.0/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,10 @@
+# makefile2
+
+# .c.o 뿐 아니라 모든 파일 확장자가 가능함을 설명
+
+#.SUFFIXES: .txt .log
+
+.txt.log:	
+	@echo "Converting " $< " to " $*.log
+	mv $< $*.log
+	

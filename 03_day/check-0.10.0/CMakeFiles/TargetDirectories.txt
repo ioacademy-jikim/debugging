@@ -1,0 +1,6 @@
+/root/05_day/check-0.10.0/tests/CMakeFiles/check_check.dir
+/root/05_day/check-0.10.0/src/CMakeFiles/check.dir
+/root/05_day/check-0.10.0/tests/CMakeFiles/check_nofork_teardown.dir
+/root/05_day/check-0.10.0/lib/CMakeFiles/compat.dir
+/root/05_day/check-0.10.0/tests/CMakeFiles/check_nofork.dir
+/root/05_day/check-0.10.0/tests/CMakeFiles/ex_output.dir

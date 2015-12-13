@@ -1,0 +1,5 @@
+# makefile2
+# make -f makefile2
+
+app: app.c app.h
+	cc -o app app.c -I .

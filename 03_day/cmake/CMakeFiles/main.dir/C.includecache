@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/05_day/cmake/main.c
+test.h
+/root/05_day/cmake/test.h
+
+/root/05_day/cmake/test.c
+test.h
+/root/05_day/cmake/test.h
+stdio.h
+-
+
+/root/05_day/cmake/test.h
+

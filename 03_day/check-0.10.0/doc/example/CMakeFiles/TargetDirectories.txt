@@ -1,0 +1,3 @@
+/root/05_day/check-0.10.0/doc/example/tests/CMakeFiles/check_money.dir
+/root/05_day/check-0.10.0/doc/example/src/CMakeFiles/money.dir
+/root/05_day/check-0.10.0/doc/example/src/CMakeFiles/main.dir
